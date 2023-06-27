@@ -1,0 +1,21 @@
+PuniSalary2023.exe: 00003CB0: 10:50:52 [TUniServerModule]:Shutting Down Server.
+PuniSalary2023.exe: 00003CB0: 10:50:52 [TUniServerModule]:Stopping HTTP Server.
+PuniSalary2023.exe: 00003CB0: 10:50:53 [TUniServerModule]:HTTP Server Stopped.
+PuniSalary2023.exe: 00003CB0: 10:50:53 [TUniGUISessionManager]:Terminating Session manager.
+PuniSalary2023.exe: 00003CB0: 10:50:53 [TUniGUISessionManager]:Stopping Cache Eraser...
+PuniSalary2023.exe: 00003CB0: 10:50:53 [TUniGUISessionManager]:Cache Eraser Stopped.
+PuniSalary2023.exe: 00003CB0: 10:50:53 [TUniGUISessionManager]:Destroying Worker Threads.
+PuniSalary2023.exe: 00003CB0: 10:50:53 [TUniGUISessionManager]:Session manager terminated.
+PuniSalary2023.exe: 00003CB0: 10:50:53 [TUniServerModule]:Server Shutdown Completed.
+PuniSalary2023.exe: 00003CB0: 10:50:53 []:<-------------------------------------------------------------->
+PuniSalary2023.exe: 00003CB0: 10:50:53 [Terminated]:Exit Code: 0
+PuniSalary2023.exe: 000058EC: 10:51:33 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 000058EC: 10:51:33 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 000058EC: 10:51:33 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 000058EC: 10:51:33 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 000058EC: 10:51:33 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 000058EC: 10:51:33 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 000040D4: 10:55:55 [HandleFileRequest[127.0.0.1]]:File not found: D:\WorkSpace\UniSaraly\favicon.ico
+PuniSalary2023.exe: 00003D18: 15:21:18 [192.168.23.116]:EUniSessionException : Invalid session or session Timeout. (Session not found: NfI6QziTp210B2CEFEC ) : Addr: $008018F7
+PuniSalary2023.exe: 000053C4: 15:27:25 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: krhUJGh3Fm10B2CEAB4 ) : Addr: $008018F7
+PuniSalary2023.exe: 000058EC: 17:12:49 [Exit]:Unexpected attempt to terminate server application with Exit Code: 0

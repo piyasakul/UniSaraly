@@ -1,0 +1,5 @@
+PuniSalary2023.exe: 00001D48: 15:04:06 [127.0.0.1]:Failed Sequence Recovery: SeqId: 82, Event: callback
+PuniSalary2023.exe: 00004410: 15:04:16 [127.0.0.1]:Failed Sequence Recovery: SeqId: 83, Event: beforeclose
+PuniSalary2023.exe: 000021E0: 15:04:41 [127.0.0.1]:Failed Sequence Recovery: SeqId: 82, Event: callback
+PuniSalary2023.exe: 00003AFC: 15:04:52 [127.0.0.1]:Failed Sequence Recovery: SeqId: 83, Event: beforeclose
+PuniSalary2023.exe: 000038B8: 15:05:17 [127.0.0.1]:Failed Sequence Recovery: SeqId: 82, Event: callback

@@ -1,0 +1,53 @@
+PuniSalary2023.exe: 00001FD4: 14:00:04 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00001FD4: 14:00:04 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00001FD4: 14:00:04 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00001FD4: 14:00:04 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00001FD4: 14:00:04 [TUniServerModule]:Starting HTTP Server on Port: 8088...
+PuniSalary2023.exe: 00001FD4: 14:00:04 [TUniServerModule]:HTTP Server Started on Port: 8088
+PuniSalary2023.exe: 000003C0: 14:29:10 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 000003C0: 14:29:10 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 000003C0: 14:29:10 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 000003C0: 14:29:10 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 000003C0: 14:29:10 [TUniServerModule]:Starting HTTP Server on Port: 8088...
+PuniSalary2023.exe: 000003C0: 14:29:10 [TUniServerModule]:HTTP Server Started on Port: 8088
+PuniSalary2023.exe: 000041C0: 14:30:39 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 1b5efpw6sp10CA8D52C ) : Addr: $007CA393
+PuniSalary2023.exe: 00004DF4: 14:39:43 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00004DF4: 14:39:43 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00004DF4: 14:39:43 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00004DF4: 14:39:43 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00004DF4: 14:39:43 [TUniServerModule]:Starting HTTP Server on Port: 8088...
+PuniSalary2023.exe: 00004DF4: 14:39:43 [TUniServerModule]:HTTP Server Started on Port: 8088
+PuniSalary2023.exe: 00004E2C: 14:39:50 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: uuglysdPgi10CA8DCCE ) : Addr: $007CA393
+PuniSalary2023.exe: 00004D48: 14:40:51 [127.0.0.1]:Exception : TUniCustomDBGrid.SetCellValue: RecNo Mismatch![2 : 0] : Addr: $00A8F9B0
+PuniSalary2023.exe: 00004E2C: 14:41:13 [127.0.0.1]:EUniError : Incorrect syntax near the keyword 'print'. : Addr: $00912338
+PuniSalary2023.exe: 00004ED0: 14:41:26 [127.0.0.1]:EUniError : Incorrect syntax near the keyword 'print'. : Addr: $00912338
+PuniSalary2023.exe: 00004ED0: 14:41:37 [127.0.0.1]:EUniError : Incorrect syntax near the keyword 'print'. : Addr: $00912338
+PuniSalary2023.exe: 00004D48: 14:41:40 [127.0.0.1]:EUniError : Incorrect syntax near the keyword 'print'. : Addr: $00912338
+PuniSalary2023.exe: 00004D40: 14:43:14 [127.0.0.1]:EUniError : Incorrect syntax near the keyword 'print'. : Addr: $00912338
+PuniSalary2023.exe: 00001BC8: 14:44:49 [127.0.0.1]:EUniError : Named Pipes Provider: Could not open a connection to SQL Server [53].  : Addr: $00912338
+PuniSalary2023.exe: 000011B8: 14:45:23 [127.0.0.1]:EUniError : Named Pipes Provider: Could not open a connection to SQL Server [53].  : Addr: $00912338
+PuniSalary2023.exe: 00001B88: 14:45:23 [127.0.0.1]:EUniError : Login failed for user 'uaccount'. : Addr: $00912338
+PuniSalary2023.exe: 00000F54: 14:52:54 [127.0.0.1]:EUniError : Incorrect syntax near the keyword 'print'. : Addr: $00912338
+PuniSalary2023.exe: 00004FC8: 14:53:20 [127.0.0.1]:EUniError : Incorrect syntax near the keyword 'print'. : Addr: $00912338
+PuniSalary2023.exe: 00000F54: 14:53:24 [127.0.0.1]:EUniError : Incorrect syntax near the keyword 'print'. : Addr: $00912338
+PuniSalary2023.exe: 00004FC8: 14:54:59 [127.0.0.1]:EUniError : Incorrect syntax near the keyword 'print'. : Addr: $00912338
+PuniSalary2023.exe: 00004FC8: 14:55:03 [127.0.0.1]:EUniError : Incorrect syntax near the keyword 'print'. : Addr: $00912338
+PuniSalary2023.exe: 00004FC8: 14:55:06 [127.0.0.1]:EUniError : Incorrect syntax near the keyword 'print'. : Addr: $00912338
+PuniSalary2023.exe: 00004C08: 14:57:39 [127.0.0.1]:EUniError : Incorrect syntax near the keyword 'print'. : Addr: $00912338
+PuniSalary2023.exe: 00004E2C: 15:07:07 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00004E2C: 15:07:07 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00004E2C: 15:07:07 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00004E2C: 15:07:07 [TUniGUISessionManager]:Cache erase job created, Folder count: [2]
+PuniSalary2023.exe: 00004E2C: 15:07:07 [TUniServerModule]:Starting HTTP Server on Port: 8088...
+PuniSalary2023.exe: 00004E2C: 15:07:07 [TUniServerModule]:HTTP Server Started on Port: 8088
+PuniSalary2023.exe: 00000C48: 15:08:15 [127.0.0.1]:EUniError : The column name 'sprint' is specified more than once in the SET clause or column list of an INSERT. A column cannot be assigned more than one value in the same clause. Modify the clause to make sure that a column is updated only once.  If this statement updates or inserts columns into a view, column aliasing can conceal the duplication in your code. : Addr: $00912338
+PuniSalary2023.exe: 00004E8C: 15:11:55 [127.0.0.1]:EUniError : The column name 'sprint' is specified more than once in the SET clause or column list of an INSERT. A column cannot be assigned more than one value in the same clause. Modify the clause to make sure that a column is updated only once.  If this statement updates or inserts columns into a view, column aliasing can conceal the duplication in your code. : Addr: $00912338
+PuniSalary2023.exe: 00004010: 15:11:55 [127.0.0.1]:EUniError : The column name 'sprint' is specified more than once in the SET clause or column list of an INSERT. A column cannot be assigned more than one value in the same clause. Modify the clause to make sure that a column is updated only once.  If this statement updates or inserts columns into a view, column aliasing can conceal the duplication in your code. : Addr: $00912338
+PuniSalary2023.exe: 00003C68: 15:20:46 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00003C68: 15:20:46 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00003C68: 15:20:46 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00003C68: 15:20:46 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00003C68: 15:20:46 [TUniServerModule]:Starting HTTP Server on Port: 8088...
+PuniSalary2023.exe: 00003C68: 15:20:46 [TUniServerModule]:HTTP Server Started on Port: 8088
+PuniSalary2023.exe: 00004814: 15:20:53 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: tWS1ptkYzO10CA8E6C2 ) : Addr: $007CA393
+PuniSalary2023.exe: 00003C68: 23:01:24 [Exit]:Unexpected attempt to terminate server application with Exit Code: 0

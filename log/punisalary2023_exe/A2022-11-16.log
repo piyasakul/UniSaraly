@@ -1,0 +1,5 @@
+PuniSalary2023.exe: 00005504: 14:05:34 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00005504: 14:05:34 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00005504: 14:05:35 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00005504: 14:05:35 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00005504: 14:05:35 [TUniServerModule]:HTTP Server Started on Port: 8077

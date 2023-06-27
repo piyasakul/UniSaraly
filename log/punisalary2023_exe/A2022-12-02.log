@@ -1,0 +1,11 @@
+PuniSalary2023.exe: 0000440C: 15:09:12 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 0000440C: 15:09:12 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 0000440C: 15:09:12 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 0000440C: 15:09:12 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 0000440C: 15:09:12 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00000724: 15:11:34 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00000724: 15:11:34 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00000724: 15:11:34 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00000724: 15:11:34 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00000724: 15:11:34 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00000724: 15:11:34 [TUniServerModule]:HTTP Server Started on Port: 8077

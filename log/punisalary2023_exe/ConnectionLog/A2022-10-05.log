@@ -1,0 +1,6 @@
+PuniSalary2023.exe: 00001CAC: 18:14:00 [127.0.0.1]:Failed Sequence Recovery: SeqId: 10, Event: click
+PuniSalary2023.exe: 00001CAC: 18:14:16 [127.0.0.1]:Sequence sent from cache:  SeqId: 10
+PuniSalary2023.exe: 00001CAC: 18:14:16 [127.0.0.1]:Processed: Id: 10, Evt: click, [xWEcPTlROj10B440AE8]
+PuniSalary2023.exe: 00001CAC: 18:14:16 [127.0.0.1]:Failed Sequence Recovery: SeqId: 12, Event: click
+PuniSalary2023.exe: 00001CAC: 18:14:16 [127.0.0.1]:Sequence sent from cache:  SeqId: 12
+PuniSalary2023.exe: 00001CAC: 18:14:16 [127.0.0.1]:Processed: Id: 12, Evt: click, [xWEcPTlROj10B440AE8]

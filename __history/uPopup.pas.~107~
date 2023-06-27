@@ -1,0 +1,398 @@
+﻿unit uPopup;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  Controls, Forms, uniGUITypes, uniGUIAbstractClasses,
+  uniGUIClasses, uniGUIForm, uniGUIBaseClasses, uniPanel, Vcl.Menus, uniMainMenu,
+  uniButton, uniBitBtn, uniLabel, uniDateTimePicker, uniProgressBar, Data.DB,
+  MemDS, DBAccess, Uni, uniThreadTimer, uniPageControl, uniMultiItem,
+  uniComboBox, uniDBComboBox, uniDBLookupComboBox, uniFileUpload, Data.Win.ADODB,
+  UniProvider, SQLServerUniProvider;
+
+type
+  TufrmPopup = class(TUniForm)
+    UniPageControl1: TUniPageControl;
+    UniTabSheet1: TUniTabSheet;
+    UniTabSheet2: TUniTabSheet;
+    UniBitBtn1: TUniBitBtn;
+    UniBitBtn2: TUniBitBtn;
+    UniDateTimePicker1: TUniDateTimePicker;
+    UniLabel2: TUniLabel;
+    UniProgressBar1: TUniProgressBar;
+    UniPopupMenu1: TUniPopupMenu;
+    aa1: TUniMenuItem;
+    bb1: TUniMenuItem;
+    cc1: TUniMenuItem;
+    UniDateTimePicker2: TUniDateTimePicker;
+    UniLabel1: TUniLabel;
+    UniThreadTimer1: TUniThreadTimer;
+    UniQuery1: TUniQuery;
+    UniQuery2: TUniQuery;
+    UniLabel3: TUniLabel;
+    UniBitBtn3: TUniBitBtn;
+    UniBitBtn4: TUniBitBtn;
+    UniDateTimePicker3: TUniDateTimePicker;
+    UniTabSheet3: TUniTabSheet;
+    UniTabSheet4: TUniTabSheet;
+    UniTabSheet5: TUniTabSheet;
+    UniQuery6: TUniQuery;
+    UniLabel6: TUniLabel;
+    UniLabel4: TUniLabel;
+    UniDateTimePicker4: TUniDateTimePicker;
+    UniBitBtn5: TUniBitBtn;
+    UniDateTimePicker5: TUniDateTimePicker;
+    UniBitBtn6: TUniBitBtn;
+    UniDBLookupComboBox1: TUniDBLookupComboBox;
+    UniLabel5: TUniLabel;
+    UniLabel7: TUniLabel;
+    UniDateTimePicker6: TUniDateTimePicker;
+    UniBitBtn7: TUniBitBtn;
+    UniBitBtn8: TUniBitBtn;
+    UniDBLookupComboBox2: TUniDBLookupComboBox;
+    UniLabel8: TUniLabel;
+    UniBitBtn9: TUniBitBtn;
+    UniFileUpload1: TUniFileUpload;
+    UniLabel9: TUniLabel;
+    UniLabel10: TUniLabel;
+    UniDataSource1: TUniDataSource;
+    procedure UniBitBtn1Click(Sender: TObject);
+    procedure UniBitBtn2Click(Sender: TObject);
+    procedure UniBitBtn3Click(Sender: TObject);
+    procedure UniBitBtn5Click(Sender: TObject);
+    procedure UniDBLookupComboBox1Select(Sender: TObject);
+    procedure UniBitBtn7Click(Sender: TObject);
+    procedure UniBitBtn9Click(Sender: TObject);
+    procedure UniFileUpload1Completed(Sender: TObject; AStream: TFileStream);
+    procedure UniFormCreate(Sender: TObject);
+
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+function PopupForm: TufrmPopup;
+
+implementation
+
+uses
+  uniGUIApplication, MainModule, ServerModule, UniLogin, Main;
+
+function PopupForm: TufrmPopup;
+begin
+  Result := TufrmPopup(UniMainModule.GetFormInstance(TufrmPopup));
+end;
+
+{$R *.dfm}
+
+
+procedure TufrmPopup.UniBitBtn1Click(Sender: TObject);
+begin
+
+      MessageDlg('ยืนยันการคัดลอกข้อมูล',  mtConfirmation,mbYesNo,
+      procedure (Sender: TComponent; Res: Integer)
+      begin
+        if  Res = mrYes then
+        begin
+            UniThreadTimer1.Enabled := True;
+            Screen.Cursor := crHourGlass;
+                 UniThreadTimer1.Lock;
+            with UniQuery1 do
+            begin
+                Close;
+                SQL.Clear;
+                SQL.ADD('select P.montid, P.code, P.lcode, P.banknumber, P.money, D.lname, D.lsname, E.code, E.icare, E.groupdata');
+                SQL.ADD('from payment P, employees E, datalist D');
+                SQL.ADD('where P.code = E.Code');
+                SQL.ADD('AND P.lcode = D.lcode');
+                SQL.ADD('AND P.montid =:MONTID');
+                SQL.ADD('AND E.groupdata =:GROUPDATA');
+                Params.ParamValues['MONTID'] :=  YearEng(FormatDateTime('yyyymm',UniDateTimePicker1.DateTime));
+            //    Params.ParamValues['MONTID'] := FormatDateTime('yyyymm',UniDateTimePicker1.DateTime);
+                Params.ParamValues['GROUPDATA']  := UniMainModule.UserGroup;
+                Open;
+              //  ShowMessage(SQL.Text);
+            end;
+
+            if UniQuery1.Eof then
+            begin
+               MessageDlg('ไม่พบข้อมูลที่ต้องการคัดลอกกรุณาตรวจสอบ', mtInformation, [mbOK]);
+               Abort;
+            end;
+
+
+              UniProgressBar1.Max := UniQuery1.RecordCount;
+
+            //  ShowMessage(UniQuery1.sql.text + ' ' + IntToStr(UniQuery1.RecordCount));
+            //    ShowMessage(YearEng(FormatDateTime('yyyymm',UniDateTimePicker2.DateTime)));
+
+            try
+              with UniQuery2 do
+              begin
+                 Close;
+                 SQL.Clear;
+                 SQL.Add('SELECT Top 1 * FROM payment');
+                 Open;
+
+                 while not UniQuery1.Eof do
+                 begin
+                   UniProgressBar1.Position := UniQuery1.RecNo + 1;
+                   Insert;
+                  // FieldValues['montid'] := FormatDateTime('yyyymm',UniDateTimePicker2.DateTime);
+                   FieldValues['montid'] := YearEng(FormatDateTime('yyyymm',UniDateTimePicker2.DateTime));
+                   FieldValues['code'] := UniQuery1.FieldValues['code'];
+                   FieldValues['lcode'] := UniQuery1.FieldValues['lcode'];
+                   FieldValues['lname'] := UniQuery1.FieldValues['lname'];
+                   FieldValues['lsname'] := UniQuery1.FieldValues['lsname'];
+                   FieldValues['money'] := UniQuery1.FieldValues['money'];
+                   FieldValues['banknumber'] := UniQuery1.FieldValues['banknumber'];
+                   FieldValues['inserted'] := Date;
+                   FieldValues['updated']  := Date;
+                   FieldValues['insertBy'] := uniMainModule.UserGroup;
+                   FieldValues['updateBy'] := uniMainModule.UserGroup;
+                   Post;
+                   UniQuery1.Next;
+              //     ShowMessage(UniQuery12.FieldValues['code']);
+                 end;
+              end;
+                  MessageDlg('บันทึกข้อมูลแล้ว', mtInformation, [mbOK]);
+                  Screen.Cursor := crDefault;
+                  UniBitBtn2.Click;
+                  UniServerModule.Logger.AddLog('Copy Data By ->'+ UniMainModule.UserID + ' IP:' + UniApplication.RemoteAddress);
+
+            Except
+                  MessageDlg('บันทึกข้อมูลไม่สำเร็จ !!!', mtWarning, [mbOK]);
+
+            end;
+            UniThreadTimer1.Release;
+         end;
+      end
+      );
+end;
+
+procedure TufrmPopup.UniBitBtn2Click(Sender: TObject);
+begin
+       close;
+
+       MainForm.UniQuery1.Refresh;
+       MainForm.UniQuery2.Refresh;
+       MainForm.UniQuery3.Refresh;
+       MainForm.UniQuery4.Refresh;
+       MainForm.UniQuery9.Refresh;
+end;
+
+procedure TufrmPopup.UniBitBtn3Click(Sender: TObject);
+begin
+   MessageDlg('ต้องการลบข้อมูล', mtConfirmation,mbYesNo,
+     procedure (Sender: TComponent; Res: Integer)
+     begin
+     if  Res = mrYes then
+     begin
+        Screen.Cursor := crHourGlass;
+        try
+          with UniQuery1 do
+          begin
+              Close;
+              sql.Clear;
+              SQL.ADD('DELETE P FROM  payment AS P');
+              SQL.ADD('LEFT OUTER JOIN employees AS E');
+              SQL.ADD('on P.code = E.code');
+              SQL.ADD('LEFT OUTER JOIN SRtype AS T');
+              SQL.ADD('on E.types = T.tcode');
+              SQL.ADD('where p.montid =:MONTID');
+              SQL.ADD('AND E.groupdata =:GROUPDATA');
+              Params.ParamValues['MONTID'] := YearEng(FormatDateTime('yyyymm',UniDateTimePicker3.DateTime));
+              Params.ParamValues['GROUPDATA']  := UniMainModule.UserGroup;
+              Execute;
+
+          end;
+              MessageDlg('ลบข้อมูลสำเร็จแล้ว', mtInformation, [mbOK]);
+              Screen.Cursor := crDefault;
+              UniBitBtn2.Click;
+              UniServerModule.Logger.AddLog('Delete Data By ->'+ UniMainModule.UserID +' IP:' + UniApplication.RemoteAddress );
+        Except
+              MessageDlg('ลบข้อมูลไม่สำเร็จ', mtWarning, [mbOK]);
+        end;
+     end
+    end
+   );
+end;
+                 //=IF(D5<10000,500,IF(D5<15000,D5*5%,750))         ยังไม่ได้ทดลอง
+procedure TufrmPopup.UniBitBtn5Click(Sender: TObject);
+begin
+   MessageDlg('ยืนยันการคัดลอกรายการ '+ UniDBLookupComboBox1.Text , mtConfirmation,mbYesNo,
+     procedure (Sender: TComponent; Res: Integer)
+     begin
+         if  Res = mrYes then
+         begin
+            Screen.Cursor := crHourGlass;
+            with UniQuery1 do
+            begin
+                Close;
+                sql.Clear;
+                SQL.ADD('select P.montid, P.code, P.lcode, P.money, D.lname, D.lsname, E.code, E.icare, E.groupdata');
+                SQL.ADD('from payment P, employees E, datalist D');
+                SQL.ADD('WHERE P.code = E.Code');
+                SQL.ADD('AND P.lcode = D.lcode');
+                SQL.ADD('AND P.montid =:MONTID');
+                SQL.ADD('AND E.groupdata =:GROUPDATA');
+                SQL.Add('AND P.lcode =:Lcode');
+            //    SQL.ADD('SELECT * FROM payment');
+            //    SQL.ADD('WHERE montid =:MONTID');
+                Params.ParamValues['MONTID'] := YearEng(FormatDateTime('yyyymm',UniDateTimePicker4.DateTime));
+                Params.ParamValues['GROUPDATA']  := UniMainModule.UserGroup;
+                Params.ParamValues['Lcode']  := UniDBLookupComboBox1.KeyValueStr;
+                Open;
+            end;
+               ShowMessage(UniQuery1.SQL.text);
+            if UniQuery1.Eof then
+            begin
+               MessageDlg('ไม่พบข้อมูลที่ต้องการคัดลอกกรุณาตรวจสอบ', mtInformation, [mbOK]);
+               Abort;
+            end;
+
+            //  ShowMessage(salary + ' ' + IntToStr(UniQuery12.RecordCount));
+            try
+              with UniQuery2 do
+              begin
+                 Close;
+                 SQL.Clear;
+                 SQL.Add('SELECT TOP 1 * FROM payment');
+                 Open;
+
+                 while not UniQuery1.Eof do
+                 begin
+                   Insert;
+                   FieldValues['montid'] := YearEng(FormatDateTime('yyyymm',UniDateTimePicker5.DateTime));
+                   FieldValues['code']   := UniQuery1.FieldValues['code'];
+                   FieldValues['lcode']  := UniQuery1.FieldValues['lcode'];
+                   FieldValues['lname']  := UniQuery1.FieldValues['lname'];
+                   FieldValues['lsname'] := UniQuery1.FieldValues['lsname'];
+                   FieldValues['money']  := UniQuery1.FieldValues['money'];
+                   FieldValues['banknumber'] := UniQuery1.FieldValues['banknumber'];
+                   FieldValues['inserted'] := Date;
+                   FieldValues['updated']  := Date;
+                   FieldValues['insertBy'] := uniMainModule.UserGroup;
+                   FieldValues['updateBy'] := uniMainModule.UserGroup;
+                   Post;
+                   UniQuery1.Next;
+              //     ShowMessage(UniQuery12.FieldValues['code']);
+                 end;
+              end;
+                  MessageDlg('บันทึกข้อมูลแล้ว', mtInformation, [mbOK]);
+                  UniBitBtn2.Click;
+                  UniServerModule.Logger.AddLog('Copy Data list By ->'+ UniMainModule.UserID +' IP:' + UniApplication.RemoteAddress );
+            Except
+                  MessageDlg('บันทึกข้อมูลไม่สำเร็จ', mtWarning, [mbOK]);
+            end;
+
+         end;
+     end
+  );
+
+end;
+
+procedure TufrmPopup.UniBitBtn7Click(Sender: TObject);
+begin
+  MessageDlg('ต้องการลบข้อมูล', mtConfirmation,mbYesNo,
+     procedure (Sender: TComponent; Res: Integer)
+     begin
+     if  Res = mrYes then
+     begin
+        Screen.Cursor := crHourGlass;
+        try
+          with UniQuery1 do
+          begin
+              Close;
+              sql.Clear;
+              SQL.ADD('DELETE P FROM  payment AS P');
+              SQL.ADD('LEFT OUTER JOIN employees AS E');
+              SQL.ADD('on P.code = E.code');
+              SQL.ADD('LEFT OUTER JOIN SRtype AS T');
+              SQL.ADD('on E.types = T.tcode');
+              SQL.ADD('where p.montid =:MONTID');
+              SQL.ADD('AND E.groupdata =:GROUPDATA');
+              SQL.Add('AND P.lcode =:Lcode');
+              Params.ParamValues['MONTID'] := YearEng(FormatDateTime('yyyymm',UniDateTimePicker6.DateTime));
+              Params.ParamValues['GROUPDATA']  := UniMainModule.UserGroup;
+              Params.ParamValues['Lcode']  := UniDBLookupComboBox2.KeyValueStr;
+              Execute;
+
+          end;
+              MessageDlg('ลบข้อมูลสำเร็จแล้ว' +  UniDBLookupComboBox2.Text , mtInformation, [mbOK]);
+              Screen.Cursor := crDefault;
+              UniBitBtn2.Click;
+              UniServerModule.Logger.AddLog('Delete Data By ->'+ UniMainModule.UserID +' IP:' + UniApplication.RemoteAddress );
+        Except
+              MessageDlg('ลบข้อมูลไม่สำเร็จ', mtWarning, [mbOK]);
+        end;
+     end
+    end
+   );
+end;
+
+procedure TufrmPopup.UniBitBtn9Click(Sender: TObject);
+begin
+   // UniFileUpload1.Execute;
+end;
+
+procedure TufrmPopup.UniDBLookupComboBox1Select(Sender: TObject);
+begin
+     //  ShowMessage(UniDBLookupComboBox1.KeyValueStr);
+end;
+
+procedure TufrmPopup.UniFileUpload1Completed(Sender: TObject;
+  AStream: TFileStream);
+//var
+//  DestName : string;
+//  DestFolder : string;
+begin
+{
+    DestFolder:=UniServerModule.StartPath+'UploadFolder\';
+    DestName:=DestFolder+ExtractFileName(UniFileUpload1.FileName);
+    UniLabel4.Caption:='File Name: '+UniFileUpload1.FileName;
+    CopyFile(PChar(AStream.FileName), PChar(DestName), False);
+    ShowMessage('File: '+UniFileUpload1.FileName+' Uploaded to folder: '+DestFolder);
+
+  //  ADOConnection1.Execute('insert into data select * from [Excel 8.0;database='+ UniFileUpload1.FileName +'].data');
+    UniConnection1.ExecSQL('insert into edoctest select * from [Excel 8.0;database='+ AStream.FileName +'].Sheet1');
+    }
+end;
+
+procedure TufrmPopup.UniFormCreate(Sender: TObject);
+begin
+
+ //  if  ReadConnect   then
+ //  begin
+       with UniQuery6 do
+        begin
+              Close;
+              SQL.Clear;
+              SQL.ADD('select * from datalist');
+              Open;
+        end;
+ //  end
+
+
+
+
+
+
+
+
+
+ //  else
+ //     MessageDlg('ตรวจสอบข้อมูลเชื่อมต่อไม่สำเร็จ',mtWarning,[mbOK]);
+
+      UniDateTimePicker1.DateTime := 0;
+      UniDateTimePicker2.DateTime := 0;
+      UniDateTimePicker3.DateTime := 0;
+      UniDateTimePicker4.DateTime := 0;
+      UniDateTimePicker5.DateTime := 0;
+
+      UniPageControl1.ActivePage := UniTabSheet1;
+end;
+
+end.

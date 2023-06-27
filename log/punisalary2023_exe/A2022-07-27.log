@@ -1,0 +1,10 @@
+PuniSalary2023.exe: 00004CCC: 11:35:11 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: ehjVGBcG5110AD8B6FA ) : Addr: $007FEF93
+PuniSalary2023.exe: 00004FD0: 12:01:01 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: jJjyL5CRT410AD8B57C ) : Addr: $007FEF93
+PuniSalary2023.exe: 0000357C: 12:03:35 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: QduieHBkPz10AD8C8AF ) : Addr: $007FEF93
+PuniSalary2023.exe: 0000173C: 12:41:01 [TUniServerModule]:Shutting Down Server.
+PuniSalary2023.exe: 0000173C: 12:41:01 [TUniServerModule]:Stopping HTTP Server.
+PuniSalary2023.exe: 0000173C: 12:41:02 [TUniServerModule]:HTTP Server Stopped.
+PuniSalary2023.exe: 0000173C: 12:41:02 [TUniGUISessionManager]:Terminating Session manager.
+PuniSalary2023.exe: 0000173C: 12:41:02 [TUniGUISessionManager]:Stopping Cache Eraser...
+PuniSalary2023.exe: 0000173C: 12:41:02 [TUniGUISessionManager]:Cache Eraser Stopped.
+PuniSalary2023.exe: 0000173C: 12:41:02 [TUniGUISessionManager]:Waiting for session manager thread...

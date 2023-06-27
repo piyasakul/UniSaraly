@@ -1,0 +1,11 @@
+PuniSalary2023.exe: 00004110: 16:08:26 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00004110: 16:08:26 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00004110: 16:08:26 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00004110: 16:08:26 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00004110: 16:08:26 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 000005A8: 16:22:42 [127.0.0.1]:EUniError : TCP Provider: An existing connection was forcibly closed by the remote host.
+ : Addr: $00906FC4
+PuniSalary2023.exe: 00000918: 16:23:04 [127.0.0.1]:EUniError : Named Pipes Provider: Could not open a connection to SQL Server [53].  : Addr: $00906FC4
+PuniSalary2023.exe: 000005A8: 16:23:29 [127.0.0.1]:EUniError : Named Pipes Provider: Could not open a connection to SQL Server [53].  : Addr: $00906FC4
+PuniSalary2023.exe: 000045E8: 16:23:51 [127.0.0.1]:EUniError : Named Pipes Provider: Could not open a connection to SQL Server [53].  : Addr: $00906FC4
+PuniSalary2023.exe: 00004110: 16:24:36 [Exit]:Unexpected attempt to terminate server application with Exit Code: 0

@@ -1,0 +1,37 @@
+select * from (
+select e.name, s.fullname ,s.idcard from employees_idcard as e
+inner join Sheet1 as s on REPLACE(REPLACE(e.name,' ',''),'น.ส.','นางสาว') = replace(s.fullname,' ','') 
+) as x where fullname is not null 
+
+
+select * from employees_idcard where name like 'สิบ%'
+
+select * from Sheet1 where fullname like '%จ่า%'
+
+
+
+
+
+update e
+set 
+e.idcard = s.idcard 
+from employees_idcard as e
+inner join Sheet1 as s on REPLACE(REPLACE(e.name,' ',''),'น.ส.','นางสาว') = replace(s.fullname,' ','') 
+
+
+
+เปลี่ยน id
+----------------
+declare @old as varchar(50) = '010106'
+declare @new as varchar(50) = '010106' -- '000097'
+
+select * from  payment where code = @old
+
+select * from  payment where code = @new
+
+
+select * from employees where  code = @new
+
+
+update  payment set code = @new
+where code = @old

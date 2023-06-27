@@ -1,0 +1,13 @@
+PuniSalary2023.exe: 000035AC: 08:13:55 [HandleFileRequest[127.0.0.1]]:File not found: D:\WorkSpace\UniSaraly\favicon.ico
+PuniSalary2023.exe: 0000367C: 10:09:04 [192.168.21.13]:EUniSessionException : Invalid session or session Timeout. (Session not found: 8V4gTtBWvb10AFA4266 ) : Addr: $007FF1E7
+PuniSalary2023.exe: 00001728: 10:15:31 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: VFhHm6hcxv10AFA2A77 ) : Addr: $007FF1E7
+PuniSalary2023.exe: 000026EC: 10:28:12 [HandleFileRequest[127.0.0.1]]:File not found: D:\WorkSpace\UniSaraly\favicon.ico
+PuniSalary2023.exe: 00003F74: 12:31:32 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: KndJf8sPbs10AFA5D6B ) : Addr: $007FF1E7
+PuniSalary2023.exe: 00004A70: 12:49:54 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: VnNtaFNMoq10AFA70B8 ) : Addr: $007FF1E7
+PuniSalary2023.exe: 000046BC: 14:10:26 [HandleFileRequest[127.0.0.1]]:File not found: D:\WorkSpace\UniSaraly\favicon.ico
+PuniSalary2023.exe: 00003E38: 15:52:01 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: g8ZXVxFpLy10AFA753A ) : Addr: $007FF1E7
+PuniSalary2023.exe: 000054DC: 16:07:24 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: g5bcMdJard10AFAA6A3 ) : Addr: $007FF1E7
+PuniSalary2023.exe: 00004B7C: 16:07:24 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: g5bcMdJard10AFAA6A3 ) : Addr: $007FF1E7
+PuniSalary2023.exe: 00002E98: 16:16:13 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: aC7ejDeudH10AFA8B41 ) : Addr: $007FF1E7
+PuniSalary2023.exe: 00005AB8: 17:53:06 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: xbFAHKQKUD10AFAAD32 ) : Addr: $007FF1E7
+PuniSalary2023.exe: 00003564: 18:27:50 [192.168.22.127]:EUniSessionException : Invalid session or session Timeout. (Session not found: 5OKwWUMSA610AFAAD6F ) : Addr: $007FF1E7

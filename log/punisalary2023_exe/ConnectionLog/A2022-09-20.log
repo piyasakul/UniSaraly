@@ -1,0 +1,71 @@
+PuniSalary2023.exe: 00004C8C: 14:51:20 [192.168.23.116]:Failed Sequence Recovery: SeqId: 84, Event: click
+PuniSalary2023.exe: 0000597C: 14:51:29 [192.168.23.116]:Failed Sequence Recovery: SeqId: 85, Event: click
+PuniSalary2023.exe: 00001F88: 14:52:09 [192.168.23.116]:Failed Sequence Recovery: SeqId: 84, Event: click
+PuniSalary2023.exe: 000031CC: 14:52:49 [192.168.23.116]:Failed Sequence Recovery: SeqId: 84, Event: click
+PuniSalary2023.exe: 00005D60: 14:52:54 [192.168.23.116]:Failed Sequence Recovery: SeqId: 85, Event: click
+PuniSalary2023.exe: 00004C8C: 14:53:22 [192.168.23.116]:Sequence sent from cache:  SeqId: 84
+PuniSalary2023.exe: 00004C8C: 14:53:22 [192.168.23.116]:Processed: Id: 84, Evt: click, [NfI6QziTp210B2CEFEC]
+PuniSalary2023.exe: 0000597C: 14:53:22 [192.168.23.116]:Sequence sent from cache:  SeqId: 85
+PuniSalary2023.exe: 0000597C: 14:53:22 [192.168.23.116]:Processed: Id: 85, Evt: click, [NfI6QziTp210B2CEFEC]
+PuniSalary2023.exe: 00001F88: 14:53:22 [192.168.23.116]:Sequence sent from cache:  SeqId: 84
+PuniSalary2023.exe: 00001F88: 14:53:22 [192.168.23.116]:Processed: Id: 84, Evt: click, [NfI6QziTp210B2CEFEC]
+PuniSalary2023.exe: 000031CC: 14:53:22 [192.168.23.116]:Sequence sent from cache:  SeqId: 84
+PuniSalary2023.exe: 000031CC: 14:53:22 [192.168.23.116]:Processed: Id: 84, Evt: click, [NfI6QziTp210B2CEFEC]
+PuniSalary2023.exe: 00005D60: 14:53:22 [192.168.23.116]:Sequence sent from cache:  SeqId: 85
+PuniSalary2023.exe: 00005D60: 14:53:22 [192.168.23.116]:Processed: Id: 85, Evt: click, [NfI6QziTp210B2CEFEC]
+PuniSalary2023.exe: 000005D8: 14:53:24 [192.168.23.116]:Failed Sequence Recovery: SeqId: 84, Event: click
+PuniSalary2023.exe: 000005D8: 14:53:24 [192.168.23.116]:Sequence sent from cache:  SeqId: 84
+PuniSalary2023.exe: 000005D8: 14:53:24 [192.168.23.116]:Processed: Id: 84, Evt: click, [NfI6QziTp210B2CEFEC]
+PuniSalary2023.exe: 000005D8: 14:53:24 [192.168.23.116]:Failed Sequence Recovery: SeqId: 86, Event: click
+PuniSalary2023.exe: 000005D8: 14:53:24 [192.168.23.116]:Sequence sent from cache:  SeqId: 86
+PuniSalary2023.exe: 000005D8: 14:53:24 [192.168.23.116]:Processed: Id: 86, Evt: click, [NfI6QziTp210B2CEFEC]
+PuniSalary2023.exe: 000005D8: 14:53:24 [192.168.23.116]:Failed Sequence Recovery: SeqId: 87, Event: beforeactivate
+PuniSalary2023.exe: 000005D8: 14:53:24 [192.168.23.116]:Sequence sent from cache:  SeqId: 87
+PuniSalary2023.exe: 000005D8: 14:53:24 [192.168.23.116]:Processed: Id: 87, Evt: beforeactivate, [NfI6QziTp210B2CEFEC]
+PuniSalary2023.exe: 000005D8: 14:53:24 [192.168.23.116]:Failed Sequence Recovery: SeqId: 88, Event: click
+PuniSalary2023.exe: 000005D8: 14:53:24 [192.168.23.116]:Sequence sent from cache:  SeqId: 88
+PuniSalary2023.exe: 000005D8: 14:53:24 [192.168.23.116]:Processed: Id: 88, Evt: click, [NfI6QziTp210B2CEFEC]
+PuniSalary2023.exe: 000005D8: 14:53:25 [192.168.23.116]:Failed Sequence Recovery: SeqId: 89, Event: beforeactivate
+PuniSalary2023.exe: 000005D8: 14:53:25 [192.168.23.116]:Sequence sent from cache:  SeqId: 89
+PuniSalary2023.exe: 000005D8: 14:53:25 [192.168.23.116]:Processed: Id: 89, Evt: beforeactivate, [NfI6QziTp210B2CEFEC]
+PuniSalary2023.exe: 00004018: 14:53:25 [192.168.23.116]:Failed Sequence Recovery: SeqId: 90, Event: click
+PuniSalary2023.exe: 00004018: 14:53:25 [192.168.23.116]:Processing: Id: 90, Evt: click
+PuniSalary2023.exe: 000005D8: 14:53:25 [192.168.23.116]:Failed Sequence Recovery: SeqId: 91, Event: click
+PuniSalary2023.exe: 00004018: 14:54:01 [192.168.23.116]:Processed: Id: 90, Evt: click, [NfI6QziTp210B2CEFEC]
+PuniSalary2023.exe: 000005D8: 14:54:01 [192.168.23.116]:Processing: Id: 91, Evt: click
+PuniSalary2023.exe: 00005A30: 14:54:05 [192.168.23.116]:Failed Sequence Recovery: SeqId: 90, Event: click
+PuniSalary2023.exe: 000005D8: 14:54:40 [192.168.23.116]:Processed: Id: 91, Evt: click, [NfI6QziTp210B2CEFEC]
+PuniSalary2023.exe: 00005A30: 14:54:40 [192.168.23.116]:Sequence sent from cache:  SeqId: 90
+PuniSalary2023.exe: 00005A30: 14:54:40 [192.168.23.116]:Processed: Id: 90, Evt: click, [NfI6QziTp210B2CEFEC]
+PuniSalary2023.exe: 00001C6C: 14:54:40 [192.168.23.116]:Failed Sequence Recovery: SeqId: 90, Event: click
+PuniSalary2023.exe: 00001C6C: 14:54:40 [192.168.23.116]:Sequence sent from cache:  SeqId: 90
+PuniSalary2023.exe: 00001C6C: 14:54:40 [192.168.23.116]:Processed: Id: 90, Evt: click, [NfI6QziTp210B2CEFEC]
+PuniSalary2023.exe: 00001C6C: 14:54:41 [192.168.23.116]:Failed Sequence Recovery: SeqId: 91, Event: click
+PuniSalary2023.exe: 00001C6C: 14:54:41 [192.168.23.116]:Sequence sent from cache:  SeqId: 91
+PuniSalary2023.exe: 00001C6C: 14:54:41 [192.168.23.116]:Processed: Id: 91, Evt: click, [NfI6QziTp210B2CEFEC]
+PuniSalary2023.exe: 00006744: 14:54:41 [192.168.23.116]:Failed Sequence Recovery: SeqId: 92, Event: beforeactivate
+PuniSalary2023.exe: 000061D8: 14:54:41 [192.168.23.116]:Processing: Id: -1, Evt: data
+PuniSalary2023.exe: 000061D8: 14:54:41 [192.168.23.116]:Processed: Id: -1, Evt: data, [NfI6QziTp210B2CEFEC]
+PuniSalary2023.exe: 00006744: 14:54:41 [192.168.23.116]:Sequence sent from cache:  SeqId: 92
+PuniSalary2023.exe: 00006744: 14:54:41 [192.168.23.116]:Processed: Id: 92, Evt: beforeactivate, [NfI6QziTp210B2CEFEC]
+PuniSalary2023.exe: 00006744: 14:54:41 [192.168.23.116]:Processing: Id: -1, Evt: data
+PuniSalary2023.exe: 00006744: 14:54:41 [192.168.23.116]:Processed: Id: -1, Evt: data, [NfI6QziTp210B2CEFEC]
+PuniSalary2023.exe: 000061D8: 14:54:41 [192.168.23.116]:Failed Sequence Recovery: SeqId: 93, Event: beforeactivate
+PuniSalary2023.exe: 000061D8: 14:54:41 [192.168.23.116]:Processing: Id: 93, Evt: beforeactivate
+PuniSalary2023.exe: 000061D8: 14:54:41 [192.168.23.116]:Processed: Id: 93, Evt: beforeactivate, [NfI6QziTp210B2CEFEC]
+PuniSalary2023.exe: 00001C6C: 14:54:41 [192.168.23.116]:Failed Sequence Recovery: SeqId: 94, Event: tabchange
+PuniSalary2023.exe: 00001C6C: 14:54:41 [192.168.23.116]:Processing: Id: 94, Evt: tabchange
+PuniSalary2023.exe: 00001C6C: 14:54:41 [192.168.23.116]:Processed: Id: 94, Evt: tabchange, [NfI6QziTp210B2CEFEC]
+PuniSalary2023.exe: 000057E0: 14:54:41 [192.168.23.116]:Processing: Id: -1, Evt: data
+PuniSalary2023.exe: 000057E0: 14:54:41 [192.168.23.116]:Processed: Id: -1, Evt: data, [NfI6QziTp210B2CEFEC]
+PuniSalary2023.exe: 000061D8: 14:54:41 [192.168.23.116]:Processing: Id: -1, Evt: data
+PuniSalary2023.exe: 000061D8: 14:54:41 [192.168.23.116]:Processed: Id: -1, Evt: data, [NfI6QziTp210B2CEFEC]
+PuniSalary2023.exe: 00001C6C: 14:54:41 [192.168.23.116]:Failed Sequence Recovery: SeqId: 95, Event: beforeactivate
+PuniSalary2023.exe: 00001C6C: 14:54:41 [192.168.23.116]:Processing: Id: 95, Evt: beforeactivate
+PuniSalary2023.exe: 00001C6C: 14:54:41 [192.168.23.116]:Processed: Id: 95, Evt: beforeactivate, [NfI6QziTp210B2CEFEC]
+PuniSalary2023.exe: 000057E0: 14:54:41 [192.168.23.116]:Failed Sequence Recovery: SeqId: 96, Event: beforeactivate
+PuniSalary2023.exe: 000057E0: 14:54:41 [192.168.23.116]:Processing: Id: 96, Evt: beforeactivate
+PuniSalary2023.exe: 000057E0: 14:54:41 [192.168.23.116]:Processed: Id: 96, Evt: beforeactivate, [NfI6QziTp210B2CEFEC]
+PuniSalary2023.exe: 00006744: 14:54:41 [192.168.23.116]:Failed Sequence Recovery: SeqId: 97, Event: tabchange
+PuniSalary2023.exe: 00006744: 14:54:41 [192.168.23.116]:Processing: Id: 97, Evt: tabchange
+PuniSalary2023.exe: 00006744: 14:54:41 [192.168.23.116]:Processed: Id: 97, Evt: tabchange, [NfI6QziTp210B2CEFEC]

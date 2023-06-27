@@ -1,0 +1,12 @@
+PuniSalary2023.exe: 0000432C: 16:57:30 [127.0.0.1]:Failed Sequence Recovery: SeqId: 1, Event: activate
+PuniSalary2023.exe: 0000432C: 16:57:30 [127.0.0.1]:Sequence sent from cache:  SeqId: 1
+PuniSalary2023.exe: 0000432C: 16:57:30 [127.0.0.1]:Processed: Id: 1, Evt: activate, [nLAeKgb9XX10B17B63E]
+PuniSalary2023.exe: 0000432C: 16:57:30 [127.0.0.1]:Failed Sequence Recovery: SeqId: 2, Event: move
+PuniSalary2023.exe: 0000432C: 16:57:30 [127.0.0.1]:Sequence sent from cache:  SeqId: 2
+PuniSalary2023.exe: 0000432C: 16:57:30 [127.0.0.1]:Processed: Id: 2, Evt: move, [nLAeKgb9XX10B17B63E]
+PuniSalary2023.exe: 0000432C: 16:57:30 [127.0.0.1]:Failed Sequence Recovery: SeqId: 3, Event: resize
+PuniSalary2023.exe: 0000432C: 16:57:30 [127.0.0.1]:Sequence sent from cache:  SeqId: 3
+PuniSalary2023.exe: 0000432C: 16:57:30 [127.0.0.1]:Processed: Id: 3, Evt: resize, [nLAeKgb9XX10B17B63E]
+PuniSalary2023.exe: 0000432C: 16:57:30 [127.0.0.1]:Failed Sequence Recovery: SeqId: 4, Event: tabchange
+PuniSalary2023.exe: 0000432C: 16:57:30 [127.0.0.1]:Processing: Id: 4, Evt: tabchange
+PuniSalary2023.exe: 0000432C: 16:57:30 [127.0.0.1]:Processed: Id: 4, Evt: tabchange, [nLAeKgb9XX10B17B63E]

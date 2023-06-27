@@ -1,0 +1,3 @@
+PuniSalary2023.exe: 00003DD0: 08:10:20 [192.168.21.13]:EUniSessionException : Invalid session or session Timeout. (Session not found: hfjaQKZeiL10AD5EB0C ) : Addr: $007FEF93
+PuniSalary2023.exe: 0000331C: 08:10:38 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: hkUmcSRpn210AD601AF ) : Addr: $007FEF93
+PuniSalary2023.exe: 000010CC: 08:12:42 [192.168.21.13]:EUniSessionException : Invalid session or session Timeout. (Session not found: 2sgNBWg4xi10AD59545 ) : Addr: $007FEF93

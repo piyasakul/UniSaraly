@@ -1,0 +1,7 @@
+PuniSalary2023.exe: 00004008: 14:48:43 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00004008: 14:48:43 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00004008: 14:48:43 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00004008: 14:48:43 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00004008: 14:48:43 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00004008: 14:48:43 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00004008: 16:32:17 [Exit]:Unexpected attempt to terminate server application with Exit Code: 0

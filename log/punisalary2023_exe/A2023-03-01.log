@@ -1,0 +1,7 @@
+PuniSalary2023.exe: 00002904: 14:07:37 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: c9aKgetEv110C240129 ) : Addr: $007CAA23
+PuniSalary2023.exe: 00000A48: 14:28:46 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: rtmbD5hVaD10C24162E ) : Addr: $007CAA23
+PuniSalary2023.exe: 000047B8: 14:52:43 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: QiPisaEv5X10C241BEF ) : Addr: $007CAA23
+PuniSalary2023.exe: 00004080: 16:13:55 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: ktU8MlU9Ah10C24240C ) : Addr: $007CAA23
+PuniSalary2023.exe: 0000181C: 16:28:58 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: WaJi9SlMjF10C243874 ) : Addr: $007CAA23
+PuniSalary2023.exe: 000057B0: 16:52:45 [127.0.0.1]:EUniError : TCP Provider: An existing connection was forcibly closed by the remote host.
+ : Addr: $009129C8

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/06/08 10:30:17.000.299,=D:\WorkSpace\UniSaraly\Unit1.pas</Transaction>
+    <Transaction>2022/06/08 11:19:36.000.959,D:\WorkSpace\UniSaraly\UniLogin.dfm=D:\WorkSpace\UniSaraly\Unit1.dfm</Transaction>
+    <Transaction>2022/06/08 11:19:36.000.959,D:\WorkSpace\UniSaraly\UniLogin.pas=D:\WorkSpace\UniSaraly\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

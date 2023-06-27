@@ -1,0 +1,16 @@
+PuniSlip.exe: 00004FB4: 14:41:24 []:>--------------------------------------------------------------<
+PuniSlip.exe: 00004FB4: 14:41:24 [TUniServerModule]:Server First Init.
+PuniSlip.exe: 00004FB4: 14:41:24 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSlip.exe: 00004FB4: 14:41:24 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSlip.exe: 00004FB4: 14:41:24 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSlip.exe: 00004FB4: 14:41:34 [TUniServerModule]:Shutting Down Server.
+PuniSlip.exe: 00004FB4: 14:41:34 [TUniServerModule]:Stopping HTTP Server.
+PuniSlip.exe: 00004FB4: 14:41:35 [TUniServerModule]:HTTP Server Stopped.
+PuniSlip.exe: 00004FB4: 14:41:35 [TUniGUISessionManager]:Terminating Session manager.
+PuniSlip.exe: 00004FB4: 14:41:35 [TUniGUISessionManager]:Stopping Cache Eraser...
+PuniSlip.exe: 00004FB4: 14:41:35 [TUniGUISessionManager]:Cache Eraser Stopped.
+PuniSlip.exe: 00004FB4: 14:41:35 [TUniGUISessionManager]:Destroying Worker Threads.
+PuniSlip.exe: 00004FB4: 14:41:35 [TUniGUISessionManager]:Session manager terminated.
+PuniSlip.exe: 00004FB4: 14:41:35 [TUniServerModule]:Server Shutdown Completed.
+PuniSlip.exe: 00004FB4: 14:41:35 []:<-------------------------------------------------------------->
+PuniSlip.exe: 00004FB4: 14:41:35 [Terminated]:Exit Code: 0

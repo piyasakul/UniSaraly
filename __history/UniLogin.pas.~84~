@@ -1,0 +1,289 @@
+unit UniLogin;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  Controls, Forms, uniGUITypes, uniGUIAbstractClasses,
+  uniGUIClasses, uniGUIRegClasses, uniGUIForm, uniGUIBaseClasses, uniPanel,
+  uniPageControl, uniButton, uniEdit, dxGDIPlusClasses, uniImage, uniLabel,
+  Data.DB, DBAccess, Uni, MemDS, dxmdaset, System.IniFiles, System.UITypes,
+  UniFSConfirm ;
+
+type
+  TUniLoginForm1 = class(TUniLoginForm)
+    UniPanel1: TUniPanel;
+    UniPanel2: TUniPanel;
+    UniPageControl1: TUniPageControl;
+    UniTabSheet1: TUniTabSheet;
+    UniTabSheet2: TUniTabSheet;
+    UniLabel1: TUniLabel;
+    UniLabel2: TUniLabel;
+    UniLabel3: TUniLabel;
+    UniLabel4: TUniLabel;
+    UniLabel5: TUniLabel;
+    UniImage1: TUniImage;
+    UniLabel6: TUniLabel;
+    UniEdit1: TUniEdit;
+    UniLabel7: TUniLabel;
+    UniEdit2: TUniEdit;
+    UniButton1: TUniButton;
+    UniButton2: TUniButton;
+    UniQuery1: TUniQuery;
+    UniLabel8: TUniLabel;
+    UniTabSheet3: TUniTabSheet;
+    UniEdit3: TUniEdit;
+    UniEdit4: TUniEdit;
+    UniEdit5: TUniEdit;
+    UniEdit6: TUniEdit;
+    UniLabel9: TUniLabel;
+    UniLabel10: TUniLabel;
+    UniLabel11: TUniLabel;
+    UniLabel12: TUniLabel;
+    UniEdit7: TUniEdit;
+    UniLabel13: TUniLabel;
+    UniButton3: TUniButton;
+    UniButton4: TUniButton;
+    procedure UniButton1Click(Sender: TObject);
+    procedure UniButton2Click(Sender: TObject);
+    procedure UniLoginFormCreate(Sender: TObject);
+    procedure UniLoginFormKeyDown(Sender: TObject; var Key: Word;
+      Shift: TShiftState);
+    procedure UniButton4Click(Sender: TObject);
+    procedure UniButton3Click(Sender: TObject);
+    procedure UniEdit2KeyPress(Sender: TObject; var Key: Char);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    fname:string;
+    ini:TIniFile;
+  end;
+
+function UniLoginForm1: TUniLoginForm1;
+function ReadConnect:Boolean;
+
+
+implementation
+
+{$R *.dfm}
+
+uses
+  uniGUIVars, MainModule, uniGUIApplication, ServerModule, Main, IdHashMessageDigest;
+
+function ReadConnect:Boolean;
+var
+    fname:string;
+    ini:TIniFile;
+begin
+     Result:= false;
+     fname:=UniServerModule.FilesFolderPath +'etc\jdata.ini';
+    if FileExists(fname) then
+    begin
+        UniMainModule.UniConnection1.Connected  := False;
+        ini:=TIniFile.Create(fname);
+        with UniMainModule.UniConnection1 do
+        begin
+           try
+             Server   := Ini.ReadString('SECURITY','DB_SERVER','');
+             Database := Ini.ReadString('SECURITY','DB_NAME','');
+             Username := Ini.ReadString('SECURITY','USERNAME','');
+             Password := Ini.ReadString('SECURITY','PASSWORD','');
+             Port     := Ini.ReadInteger('SECURITY','DB_PORT',1433);
+             ProviderName := 'SQL Server';
+             UniMainModule.ServeID := Server;
+           finally
+              ini.Free;
+           end;
+
+           try
+              Connected := True;
+              Result := true;
+           except
+            //  ShowMessage('ตรวจสอบข้อมูลเชื่อมต่อไม่สำเร็จ');
+              Result := False;
+           end;
+        end;
+    end
+    else begin
+          UniServerModule.Logger.AddLog('No conf file ->'+fname);
+          result:=False;
+    end;
+
+end;
+
+function UniLoginForm1: TUniLoginForm1;
+begin
+  Result := TUniLoginForm1(UniMainModule.GetFormInstance(TUniLoginForm1));
+end;
+
+procedure TUniLoginForm1.UniButton1Click(Sender: TObject);
+//var
+// aMd5 : TIdHashMessageDigest5;
+begin
+    if ReadConnect = False then
+       ShowMessage('ตรวจสอบข้อมูลเชื่อมต่อไม่สำเร็จ');
+
+    if Length(UniEdit1.Text) = 0 then
+    begin
+       MessageDlg('กรุณาระบุผู้ใช้งานและรหัสผ่าน',mtInformation,[mbOK]);
+       Abort;
+    end;
+
+    with UniQuery1 do
+    begin
+       close;
+       SQL.Clear;
+       SQL.Add('select RTRIM(USRCODE) AS usercode, USRNAME as username,USRLOG AS userlogin,');
+       SQL.Add('USRPASS AS userpassword, USRSTS AS userstatus,groupdata from musr');
+       SQL.Add('where USRLOG =:usrlog and USRPASS =:usrpass');
+       Params.ParamValues['usrlog'] := UniEdit1.Text;
+       params.ParamValues['usrpass'] := UniEdit2.Text;
+      // ParamByName('pass').Value := aMd5.HashStringAsHex(UniEdit2.Text);
+       Open;
+
+       if RecordCount > 0 then
+       begin
+           with UniMainModule do
+           begin
+              UserName := UniQuery1.FieldValues['userName'];
+              UserID   := UniQuery1.FieldValues['usercode'];
+              UserPwd  := UniQuery1.FieldValues['userpassword'];
+              UserGroup := UniQuery1.FieldValues['groupdata'];
+           end;
+           
+           Sql.Clear;
+           Sql.Add('update musr set LastConnect=:LastConnect, LastIp=:LastIp where Usrcode=:Usrcode');
+           Params.ParamValues['LastConnect'] :=Now;
+           Params.ParamValues['LastIp'] :=UniApplication.RemoteAddress;
+           Params.ParamValues['Usrcode'] :=UniMainModule.UserID;
+           ExecSQL;
+           ModalResult:=mrOK;  //
+       end
+       else
+          MessageDlg('ไม่พบผู้ใช้งานหรือรหัสผ่านไม่ถูกต้อง',mtInformation,[mbOK]);
+    end;
+   // UniMainModule.AUserName := 'This User';
+
+end;
+
+procedure TUniLoginForm1.UniButton2Click(Sender: TObject);
+begin
+ ModalResult:=mrCancel; // Invd Login exit from appali
+end;
+
+procedure TUniLoginForm1.UniButton3Click(Sender: TObject);
+begin
+    if ReadConnect then
+       MessageDlg('เชื่อมต่อข้อมูลสำเร็จ',mtInformation, [mbOK])
+    else
+       MessageDlg('ตรวจสอบข้อมูลเชื่อมต่อไม่สำเร็จ',mtWarning,[mbOK]);
+
+
+  {
+     Confirm.Question('Confirma Grava็ใo','REGISTRO Nบ 584440',
+    'fa fa-question-circle-o', TTypeColor.blue, TTheme.modern,
+    procedure(Button: TConfirmButton)
+    begin
+      if Button = Yes then
+      begin
+        Confirm.Alert('Registro Gravado com Sucesso','','fa fa-thumbs-o-up', TTypeColor.green, TTheme.modern);
+      end;
+      if Button = No then
+        Confirm.Alert('','Nใo foi possivel concluir a grava็ใo entre em contato','', TTypeColor.orange, TTheme.modern);
+
+    end
+  );
+
+  }
+end;
+
+procedure TUniLoginForm1.UniButton4Click(Sender: TObject);
+begin
+    // begin
+        fname:=UniServerModule.FilesFolderPath +'etc\jdata.ini';
+        if FileExists(fname) then
+        begin
+             UniMainModule.UniConnection1.Connected  := False;
+             ini:=TIniFile.Create(fname);
+             MessageDlg(Ini.ReadString('SECURITY','DB_SERVER',''),mtWarning,[mbOK]);
+             try
+             {
+               UniEdit3.Text := Ini.ReadString('SECURITY','DB_SERVER','');
+               UniEdit4.Text := Ini.ReadString('SECURITY','DB_NAME','');
+               UniEdit5.Text := Ini.ReadString('SECURITY','USERNAME','');
+               UniEdit6.Text := Ini.ReadString('SECURITY','PASSWORD','');
+               UniEdit7.Text := Ini.ReadString('SECURITY','DB_PORT','');
+              }
+               Ini.WriteString('SECURITY', 'DB_SERVER',UniEdit3.Text);
+               Ini.WriteString('SECURITY', 'DB_NAME',UniEdit4.Text);
+               Ini.WriteString('SECURITY', 'USERNAME',UniEdit5.Text);
+               Ini.WriteString('SECURITY', 'PASSWORD',UniEdit6.Text);
+               Ini.WriteString('SECURITY', 'DB_PORT',UniEdit7.Text);
+              //  result:=True;
+             finally
+                MessageDlg('บันทึกการตั้งค่าฐานข้อมูลสำเร็จ', mtInformation, [mbOK]);
+                ini.Free;
+             end;
+        end
+         else begin
+            UniServerModule.Logger.AddLog('No conf file ->'+fname);
+           //  result:=False;
+        end;
+      //  end;
+end;
+
+procedure TUniLoginForm1.UniEdit2KeyPress(Sender: TObject; var Key: Char);
+begin
+     if key =#13 then
+        UniButton1Click(nil);
+end;
+
+procedure TUniLoginForm1.UniLoginFormCreate(Sender: TObject);
+begin
+    UniPageControl1.ActivePage := UniTabSheet1;
+    UniTabSheet3.TabVisible := false;
+end;
+
+procedure TUniLoginForm1.UniLoginFormKeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+begin
+    if Key = vk_f4 then
+    begin
+       UniTabSheet3.TabVisible := True;
+       UniPageControl1.ActivePage := UniTabSheet3;
+       //function ReadSetup:boolean;
+
+       // begin
+        fname:=UniServerModule.FilesFolderPath +'etc\jdata.ini';
+        if FileExists(fname) then
+        begin
+             UniMainModule.UniConnection1.Connected  := False;
+             ini:=TIniFile.Create(fname);
+             try
+               UniEdit3.Text := Ini.ReadString('SECURITY','DB_SERVER','');
+               UniEdit4.Text := Ini.ReadString('SECURITY','DB_NAME','');
+               UniEdit5.Text := Ini.ReadString('SECURITY','USERNAME','');
+               UniEdit6.Text := Ini.ReadString('SECURITY','PASSWORD','');
+               UniEdit7.Text := Ini.ReadString('SECURITY','DB_PORT','');
+
+            //  Ini.WriteString('SECURITY', 'ServerIP',Edit_ServerIP.Text);
+            //  Ini.WriteString('SECURITY','port',Edit_port.Text);
+              //  result:=True;
+             finally
+                ini.Free;
+             end;
+        end
+        else begin
+             UniServerModule.Logger.AddLog('No conf file ->'+fname);
+           //  result:=False;
+        end;
+      //  end;
+
+    end;
+end;
+
+initialization
+  RegisterAppFormClass(TUniLoginForm1);
+
+end.

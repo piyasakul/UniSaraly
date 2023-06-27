@@ -1,0 +1,25 @@
+//function ReadSetup:boolean;
+
+ // begin
+  fname:=UniServerModule.StartPath+'etc\jdata.ini';
+  if FileExists(fname) then
+     begin
+       UniServerModule.UniConnection1.Connected  := False;
+       ini:=TIniFile.Create(fname);
+       MessageDlg(Ini.ReadString('SECURITY','DB_SERVER',''),mtWarning,[mbOK]);
+       try
+         ShowMessage(Ini.ReadString('SECURITY','DB_SERVER',''));
+       //  Edit_port.Text := Ini.ReadString('Config','port','8099');
+
+      //  Ini.WriteString('Config', 'ServerIP',Edit_ServerIP.Text);
+      //  Ini.WriteString('Config','port',Edit_port.Text);
+        //  result:=True;
+       finally
+          ini.Free;
+       end;
+     end
+     else begin
+       UniServerModule.Logger.AddLog('No conf file ->'+fname);
+     //  result:=False;
+     end;
+//  end;

@@ -1,0 +1,8 @@
+PuniSalary2023.exe: 00004A00: 08:16:38 [192.168.20.13]:EUniSessionException : Invalid session or session Timeout. (Session not found: DZginWYNJE10B26C2F6 ) : Addr: $007FF1E7
+PuniSalary2023.exe: 00004AAC: 08:17:56 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: uPErwEB4Sl10B26C10C ) : Addr: $007FF1E7
+PuniSalary2023.exe: 00004AAC: 08:17:56 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: uPErwEB4Sl10B26C10C ) : Addr: $007FF1E7
+PuniSalary2023.exe: 0000123C: 11:37:16 [192.168.23.116]:EUniSessionException : Invalid session or session Timeout. (Session not found: o3me4wMJ9P10B2B3164 ) : Addr: $007FF1E7
+PuniSalary2023.exe: 00005718: 12:01:47 [192.168.20.13]:EUniSessionException : Invalid session or session Timeout. (Session not found: UaRnrVCKqB10B2AFF7A ) : Addr: $007FF1E7
+PuniSalary2023.exe: 0000406C: 14:46:06 [192.168.23.116]:EUniSessionException : Invalid session or session Timeout. (Session not found: ov5BPNjIP810B2B62E2 ) : Addr: $007FF1E7
+PuniSalary2023.exe: 00001548: 15:32:54 [192.168.23.116]:EUniSessionException : Invalid session or session Timeout. (Session not found: JJrESdR96g10B2B68C1 ) : Addr: $007FF1E7
+PuniSalary2023.exe: 00005A20: 16:58:35 [192.168.20.13]:EUniSessionException : Invalid session or session Timeout. (Session not found: 3EZUMmO2Ya10B2B3C2C ) : Addr: $007FF1E7

@@ -1,0 +1,6 @@
+PuniSalary2023.exe: 000028F0: 15:28:16 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 000028F0: 15:28:16 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 000028F0: 15:28:16 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 000028F0: 15:28:16 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 000028F0: 15:28:16 [TUniServerModule]:Starting HTTP Server on Port: 8088...
+PuniSalary2023.exe: 000028F0: 15:28:16 [TUniServerModule]:HTTP Server Started on Port: 8088

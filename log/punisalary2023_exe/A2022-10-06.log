@@ -1,0 +1,15 @@
+PuniSalary2023.exe: 000041B8: 10:43:44 [HandleFileRequest[192.168.23.116]]:File not found: D:\WorkSpace\UniSaraly\favicon.ico
+PuniSalary2023.exe: 00002C30: 12:41:08 [192.168.23.116]:EUniSessionException : Invalid session or session Timeout. (Session not found: EZg3xmlMb110B4517AB ) : Addr: $008018F7
+PuniSalary2023.exe: 00004E80: 12:45:19 [192.168.23.116]:Exception : TUniCustomDBGrid.MoveToRow(): Unexpected Row number: 0, 1 : Addr: $00A82D6E
+PuniSalary2023.exe: 000049F4: 12:45:19 [192.168.23.116]:Exception : TUniCustomDBGrid.MoveToRow(): Unexpected Row number: 0, 1 : Addr: $00A82D6E
+PuniSalary2023.exe: 00004870: 12:45:21 [192.168.23.116]:Exception : TUniCustomDBGrid.MoveToRow(): Unexpected Row number: 0, 1 : Addr: $00A82D6E
+PuniSalary2023.exe: 00004100: 14:04:38 [192.168.23.116]:EUniSessionException : Invalid session or session Timeout. (Session not found: lz4KTgbqgn10B45377B ) : Addr: $008018F7
+PuniSalary2023.exe: 00004100: 14:04:39 [192.168.23.116]:EUniSessionException : Invalid session or session Timeout. (Session not found: lz4KTgbqgn10B45377B ) : Addr: $008018F7
+PuniSalary2023.exe: 00004100: 14:04:40 [192.168.23.116]:EUniSessionException : Invalid session or session Timeout. (Session not found: lz4KTgbqgn10B45377B ) : Addr: $008018F7
+PuniSalary2023.exe: 00002474: 14:04:40 [192.168.23.116]:EUniSessionException : Invalid session or session Timeout. (Session not found: lz4KTgbqgn10B45377B ) : Addr: $008018F7
+PuniSalary2023.exe: 00002474: 14:04:40 [192.168.23.116]:EUniSessionException : Invalid session or session Timeout. (Session not found: lz4KTgbqgn10B45377B ) : Addr: $008018F7
+PuniSalary2023.exe: 00002474: 14:04:40 [192.168.23.116]:EUniSessionException : Invalid session or session Timeout. (Session not found: lz4KTgbqgn10B45377B ) : Addr: $008018F7
+PuniSalary2023.exe: 00002474: 14:04:40 [192.168.23.116]:EUniSessionException : Invalid session or session Timeout. (Session not found: lz4KTgbqgn10B45377B ) : Addr: $008018F7
+PuniSalary2023.exe: 00004100: 14:04:40 [192.168.23.116]:EUniSessionException : Invalid session or session Timeout. (Session not found: lz4KTgbqgn10B45377B ) : Addr: $008018F7
+PuniSalary2023.exe: 000039A0: 14:12:52 [HandleFileRequest[192.168.23.116]]:File not found: D:\WorkSpace\UniSaraly\favicon.ico
+PuniSalary2023.exe: 000027B8: 14:46:55 [192.168.23.116]:EUniSessionException : Invalid session or session Timeout. (Session not found: LDc7IQFg5G10B45505E ) : Addr: $008018F7

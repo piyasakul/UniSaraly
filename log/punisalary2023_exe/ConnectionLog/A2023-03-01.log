@@ -1,0 +1,3 @@
+PuniSalary2023.exe: 00001790: 14:35:22 [127.0.0.1]:Failed Sequence Recovery: SeqId: 133, Event: click
+PuniSalary2023.exe: 00001790: 14:35:22 [127.0.0.1]:Sequence sent from cache:  SeqId: 133
+PuniSalary2023.exe: 00001790: 14:35:22 [127.0.0.1]:Processed: Id: 133, Evt: click, [QiPisaEv5X10C241BEF]

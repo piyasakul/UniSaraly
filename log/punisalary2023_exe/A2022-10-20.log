@@ -1,0 +1,19 @@
+PuniSalary2023.exe: 000033D8: 10:15:53 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 000033D8: 10:15:53 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 000033D8: 10:15:53 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 000033D8: 10:15:53 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 000033D8: 10:15:53 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00005ADC: 10:43:16 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: NHloLgpZCI10B58F442 ) : Addr: $00801907
+PuniSalary2023.exe: 0000586C: 11:08:42 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: hhCmxE57aG10B5A76D5 ) : Addr: $00801907
+PuniSalary2023.exe: 00002B54: 13:59:10 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00002B54: 13:59:10 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00002B54: 13:59:10 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00002B54: 13:59:10 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00002B54: 13:59:10 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00002B54: 13:59:10 [InitWebServer]:EIdCouldNotBindSocket : Could not bind socket. : Addr: $006F51BB
+PuniSalary2023.exe: 00003504: 13:59:18 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00003504: 13:59:18 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00003504: 13:59:18 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00003504: 13:59:18 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00003504: 13:59:18 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 0000287C: 14:43:32 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 63q8Dbl1EM10B5AA3C5 ) : Addr: $00801907

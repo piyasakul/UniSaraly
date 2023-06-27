@@ -1,0 +1,6 @@
+PuniSalary2023.exe: 00006514: 12:49:21 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00006514: 12:49:21 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00006514: 12:49:21 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00006514: 12:49:21 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00006514: 12:49:21 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00005E64: 12:50:30 [127.0.0.1]:EUniError : Named Pipes Provider: Could not open a connection to SQL Server [53].  : Addr: $009129C8

@@ -1,0 +1,150 @@
+PuniSalary2023.exe: 00000D04: 08:08:44 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: FEElYpPdC410B44118A ) : Addr: $008018F7
+PuniSalary2023.exe: 000006B8: 08:08:45 [192.168.20.13]:EUniSessionException : Invalid session or session Timeout. (Session not found: d1D9ZFQ3sz10B43BF66 ) : Addr: $008018F7
+PuniSalary2023.exe: 00003EA0: 09:13:39 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: R8oAirUy7i10B4B08EE ) : Addr: $008018F7
+PuniSalary2023.exe: 00002474: 09:33:37 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: tVib7fBbIa10B4B1A1D ) : Addr: $008018F7
+PuniSalary2023.exe: 00004F2C: 09:55:22 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: ERPrtBKiQv10B4B1F1E ) : Addr: $008018F7
+PuniSalary2023.exe: 00004A4C: 09:57:20 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00004A4C: 09:57:20 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00004A4C: 09:57:20 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00004A4C: 09:57:20 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00004A4C: 09:57:20 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00004A4C: 09:57:20 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00002AA4: 10:10:04 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: JiXooEikGn10B4B2509 ) : Addr: $008018F7
+PuniSalary2023.exe: 000049B0: 10:10:07 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 000049B0: 10:10:07 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 000049B0: 10:10:07 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 000049B0: 10:10:08 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 000049B0: 10:10:08 [InitWebServer]:EIdCouldNotBindSocket : Could not bind socket. : Addr: $006F51BB
+PuniSalary2023.exe: 00005208: 10:24:03 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00005208: 10:24:03 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00005208: 10:24:03 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00005208: 10:24:03 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00005208: 10:24:03 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00005208: 10:24:03 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00005738: 10:24:24 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: yBTRHSd4Ta10B4B2B4A ) : Addr: $008018F7
+PuniSalary2023.exe: 00003E04: 10:35:20 [127.0.0.1]:Exception : TUniCustomDBGrid.SetCellValue: RecNo Mismatch![0 : -1] : Addr: $00A85FD0
+PuniSalary2023.exe: 00003E04: 10:35:27 [127.0.0.1]:Exception : TUniCustomDBGrid.SetCellValue: RecNo Mismatch![0 : -1] : Addr: $00A85FD0
+PuniSalary2023.exe: 0000594C: 10:52:03 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 0000594C: 10:52:03 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 0000594C: 10:52:03 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 0000594C: 10:52:03 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 0000594C: 10:52:03 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 0000594C: 10:52:03 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00003E60: 10:52:19 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: aeqskqfgrR10B4B2CE1 ) : Addr: $008018F7
+PuniSalary2023.exe: 00005144: 11:12:15 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00005144: 11:12:15 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00005144: 11:12:15 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00005144: 11:12:15 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00005144: 11:12:15 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 000044C4: 11:13:05 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: FSxCp2FBvR10B4B3474 ) : Addr: $008018F7
+PuniSalary2023.exe: 00002F70: 11:23:22 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00002F70: 11:23:22 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00002F70: 11:23:22 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00002F70: 11:23:22 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00002F70: 11:23:22 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00002F70: 11:23:22 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00002888: 11:35:55 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00002888: 11:35:55 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00002888: 11:35:55 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00002888: 11:35:55 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00002888: 11:35:55 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00005F98: 11:36:23 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 5omRLwuJSV10B4B3CF0 ) : Addr: $008018F7
+PuniSalary2023.exe: 00002964: 11:45:09 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00002964: 11:45:09 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00002964: 11:45:09 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00002964: 11:45:09 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00002964: 11:45:09 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00002964: 11:45:09 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00001034: 11:51:15 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: bkL3NMA8md10B4B4069 ) : Addr: $008018F7
+PuniSalary2023.exe: 00000440: 11:53:40 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00000440: 11:53:40 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00000440: 11:53:40 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00000440: 11:53:40 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00000440: 11:53:40 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00000440: 11:53:40 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 000054A8: 11:56:00 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 000054A8: 11:56:00 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 000054A8: 11:56:00 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 000054A8: 11:56:00 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 000054A8: 11:56:00 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 000054A8: 11:56:00 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00000C4C: 11:59:17 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00000C4C: 11:59:17 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00000C4C: 11:59:17 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00000C4C: 11:59:17 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00000C4C: 11:59:17 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00000C4C: 11:59:17 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 000053B0: 11:59:27 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 5i6cUiEt5W10B4B45C7 ) : Addr: $008018F7
+PuniSalary2023.exe: 000045E8: 12:40:16 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: X2YagtrGJ310B4B3AD7 ) : Addr: $008018F7
+PuniSalary2023.exe: 00002E00: 12:40:21 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: s2kNwX5DxC10B4B451F ) : Addr: $008018F7
+PuniSalary2023.exe: 00002EB0: 13:05:29 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 4qGqCJWXxq10B4B46AA ) : Addr: $008018F7
+PuniSalary2023.exe: 000016BC: 13:12:42 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: jb6h27LILn10B4B51BC ) : Addr: $008018F7
+PuniSalary2023.exe: 00002540: 13:12:42 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: jb6h27LILn10B4B51BC ) : Addr: $008018F7
+PuniSalary2023.exe: 000016BC: 13:13:22 [127.0.0.1]:EVariantTypeCastError : Could not convert variant of type (Null) into type (OleStr) : Addr: $0043DAD4
+PuniSalary2023.exe: 000016BC: 13:13:31 [127.0.0.1]:EVariantTypeCastError : Could not convert variant of type (Null) into type (OleStr) : Addr: $0043DAD4
+PuniSalary2023.exe: 000016BC: 13:14:08 [127.0.0.1]:EVariantTypeCastError : Could not convert variant of type (Null) into type (OleStr) : Addr: $0043DAD4
+PuniSalary2023.exe: 00005364: 13:14:18 [127.0.0.1]:EVariantTypeCastError : Could not convert variant of type (Null) into type (OleStr) : Addr: $0043DAD4
+PuniSalary2023.exe: 00005B94: 13:17:20 [127.0.0.1]:EVariantTypeCastError : Could not convert variant of type (Null) into type (OleStr) : Addr: $0043DAD4
+PuniSalary2023.exe: 00004308: 13:19:20 [127.0.0.1]:EDatabaseError : Field 'cstat' must have a value : Addr: $0068E3DB
+PuniSalary2023.exe: 00004308: 13:19:23 [127.0.0.1]:EDatabaseError : Field 'cstat' must have a value : Addr: $0068E3DB
+PuniSalary2023.exe: 00000D24: 13:25:28 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00000D24: 13:25:28 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00000D24: 13:25:28 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00000D24: 13:25:28 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00000D24: 13:25:28 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00000D24: 13:25:28 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00002BEC: 13:30:20 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: DMG1weX6xN10B4B5896 ) : Addr: $008018F7
+PuniSalary2023.exe: 00004F80: 13:37:30 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00004F80: 13:37:30 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00004F80: 13:37:30 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00004F80: 13:37:30 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00004F80: 13:37:30 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00004F80: 13:37:30 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00005BA8: 13:37:38 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: hCOU7CllBR10B4B5F52 ) : Addr: $008018F7
+PuniSalary2023.exe: 00005AA4: 13:40:08 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00005AA4: 13:40:08 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00005AA4: 13:40:08 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00005AA4: 13:40:08 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00005AA4: 13:40:08 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00005AA4: 13:40:08 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 000033C0: 13:40:18 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: V2abcCJcn410B4B614C ) : Addr: $008018F7
+PuniSalary2023.exe: 000033C0: 13:41:45 [127.0.0.1]:Exception : TUniCustomDBGrid.SetCellValue: RecNo Mismatch![448 : -1] : Addr: $00A85FD0
+PuniSalary2023.exe: 000033C4: 14:47:58 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 000033C4: 14:47:58 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 000033C4: 14:47:58 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 000033C4: 14:47:58 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 000033C4: 14:47:58 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 000054B8: 14:48:01 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 63QjTbKC3Q10B4B6206 ) : Addr: $008018F7
+PuniSalary2023.exe: 000054B8: 14:48:01 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 63QjTbKC3Q10B4B6206 ) : Addr: $008018F7
+PuniSalary2023.exe: 00005824: 14:57:29 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: luPRefiR1C10B4B5A2B ) : Addr: $008018F7
+PuniSalary2023.exe: 00000F34: 15:08:47 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: sXZwtd4V2j10B4B7469 ) : Addr: $008018F7
+PuniSalary2023.exe: 00001AFC: 15:12:22 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00001AFC: 15:12:22 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00001AFC: 15:12:22 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00001AFC: 15:12:22 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00001AFC: 15:12:22 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00001AFC: 15:12:22 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00005CDC: 15:14:25 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: ypf65bMqXA10B4B7A0D ) : Addr: $008018F7
+PuniSalary2023.exe: 0000236C: 15:15:18 [127.0.0.1]:EDatabaseError : Dataset not in edit or insert mode : Addr: $0068E3DB
+PuniSalary2023.exe: 0000236C: 15:15:31 [127.0.0.1]:EDatabaseError : Dataset not in edit or insert mode : Addr: $0068E3DB
+PuniSalary2023.exe: 00004FAC: 15:16:33 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00004FAC: 15:16:33 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00004FAC: 15:16:33 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00004FAC: 15:16:33 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00004FAC: 15:16:33 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00004FAC: 15:16:33 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00004D10: 15:17:43 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: IyqLEr47La10B4B7B8D ) : Addr: $008018F7
+PuniSalary2023.exe: 00004080: 15:31:10 [HandleFileRequest[192.168.23.116]]:File not found: D:\WorkSpace\UniSaraly\favicon.ico
+PuniSalary2023.exe: 00004CB4: 15:45:41 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: emRpjRkbxX10B4B5CC6 ) : Addr: $008018F7
+PuniSalary2023.exe: 00005078: 15:51:02 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: uLvUVA2GeR10B4B7C74 ) : Addr: $008018F7
+PuniSalary2023.exe: 00005568: 16:39:08 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: tbNEyY3HrK10B4B76F7 ) : Addr: $008018F7
+PuniSalary2023.exe: 000004A0: 16:45:57 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 000004A0: 16:45:57 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 000004A0: 16:45:57 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 000004A0: 16:45:57 [TUniGUISessionManager]:Cache erase job created, Folder count: [2]
+PuniSalary2023.exe: 000004A0: 16:45:57 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 000004A0: 16:45:57 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00004BC0: 16:46:37 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: SL4KDY26zV10B4B92EC ) : Addr: $008018F7
+PuniSalary2023.exe: 00003DC0: 16:54:13 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: py5WMng1LP10B4B840B ) : Addr: $008018F7
+PuniSalary2023.exe: 00003F4C: 16:56:34 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: TC94QEXCsP10B4B928A ) : Addr: $008018F7
+PuniSalary2023.exe: 00005918: 17:01:25 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: wtgAsqtrJC10B4B9490 ) : Addr: $008018F7

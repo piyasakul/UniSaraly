@@ -1,0 +1,12 @@
+PuniSalary2023.exe: 00004148: 08:15:07 [127.0.0.1]:Failed Sequence Recovery: SeqId: 9, Event: click
+PuniSalary2023.exe: 00004148: 08:15:07 [127.0.0.1]:Sequence sent from cache:  SeqId: 9
+PuniSalary2023.exe: 00004148: 08:15:07 [127.0.0.1]:Processed: Id: 9, Evt: click, [VFhHm6hcxv10AFA2A77]
+PuniSalary2023.exe: 00003380: 10:13:32 [192.168.21.13]:Failed Sequence Recovery: SeqId: 226, Event: click
+PuniSalary2023.exe: 00003380: 10:14:17 [192.168.21.13]:Sequence sent from cache:  SeqId: 226
+PuniSalary2023.exe: 00003380: 10:14:17 [192.168.21.13]:Processed: Id: 226, Evt: click, [xvzFcUzUja10AFA499C]
+PuniSalary2023.exe: 00001728: 10:16:28 [127.0.0.1]:Failed Sequence Recovery: SeqId: 11, Event: click
+PuniSalary2023.exe: 00004A94: 10:17:04 [127.0.0.1]:Failed Sequence Recovery: SeqId: 11, Event: click
+PuniSalary2023.exe: 00001728: 10:17:37 [127.0.0.1]:Sequence sent from cache:  SeqId: 11
+PuniSalary2023.exe: 00001728: 10:17:37 [127.0.0.1]:Processed: Id: 11, Evt: click, [l3VYdc1jvn10AFA4B5E]
+PuniSalary2023.exe: 00004A94: 10:17:37 [127.0.0.1]:Sequence sent from cache:  SeqId: 11
+PuniSalary2023.exe: 00004A94: 10:17:37 [127.0.0.1]:Processed: Id: 11, Evt: click, [l3VYdc1jvn10AFA4B5E]

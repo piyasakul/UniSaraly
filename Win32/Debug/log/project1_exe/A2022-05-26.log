@@ -1,0 +1,110 @@
+Project1.exe: 0000265C: 13:10:24 []:>--------------------------------------------------------------<
+Project1.exe: 0000265C: 13:10:24 [TUniServerModule]:Server First Init.
+Project1.exe: 0000265C: 13:10:24 [TUniServerModule]:Start Path = D:\New folder (4)\Win32\Debug\
+Project1.exe: 0000265C: 13:10:24 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Project1.exe: 0000265C: 13:10:24 [TUniServerModule]:HTTP Server Started on Port: 8077
+Project1.exe: 00002630: 13:11:22 []:>--------------------------------------------------------------<
+Project1.exe: 00002630: 13:11:22 [TUniServerModule]:Server First Init.
+Project1.exe: 00002630: 13:11:22 [TUniServerModule]:Start Path = D:\New folder (4)\Win32\Debug\
+Project1.exe: 00002630: 13:11:22 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Project1.exe: 00002630: 13:11:22 [InitWebServer]:EIdCouldNotBindSocket : Could not bind socket. : Addr: $006DA207
+Project1.exe: 00002630: 13:11:36 [TUniServerModule]:Shutting Down Server.
+Project1.exe: 00002630: 13:11:36 [TUniServerModule]:Stopping HTTP Server.
+Project1.exe: 00002630: 13:11:36 [TUniServerModule]:HTTP Server Stopped.
+Project1.exe: 00002630: 13:11:36 [TUniGUISessionManager]:Terminating Session manager.
+Project1.exe: 00002630: 13:11:36 [TUniGUISessionManager]:Stopping Cache Eraser...
+Project1.exe: 00002630: 13:11:36 [TUniGUISessionManager]:Cache Eraser Stopped.
+Project1.exe: 00002630: 13:11:36 [TUniGUISessionManager]:Destroying Worker Threads.
+Project1.exe: 00002630: 13:11:36 [TUniGUISessionManager]:Session manager terminated.
+Project1.exe: 00002630: 13:11:36 [TUniServerModule]:Server Shutdown Completed.
+Project1.exe: 00002630: 13:11:36 []:<-------------------------------------------------------------->
+Project1.exe: 00002630: 13:11:36 [Terminated]:Exit Code: 0
+Project1.exe: 00000FCC: 13:11:39 []:>--------------------------------------------------------------<
+Project1.exe: 00000FCC: 13:11:39 [TUniServerModule]:Server First Init.
+Project1.exe: 00000FCC: 13:11:39 [TUniServerModule]:Start Path = D:\New folder (4)\Win32\Debug\
+Project1.exe: 00000FCC: 13:11:40 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Project1.exe: 00000FCC: 13:11:40 [InitWebServer]:EIdCouldNotBindSocket : Could not bind socket. : Addr: $006DA207
+Project1.exe: 00001558: 13:12:39 [HandleFileRequest[127.0.0.1]]:File not found: D:\New folder (4)\Win32\Debug\D:\New folder (4)\Win32\Debug\cache\project1_exe\Yzm9plxnuN10A7A4EC3\test.pdf
+Project1.exe: 00002EA8: 13:36:39 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: Yzm9plxnuN10A7A4EC3 ) : Addr: $007E6A27
+Project1.exe: 00002EA8: 13:36:39 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: Yzm9plxnuN10A7A4EC3 ) : Addr: $007E6A27
+Project1.exe: 00002EA8: 13:36:50 [HandleFileRequest[127.0.0.1]]:File not found: D:\New folder (4)\Win32\Debug\favicon.ico
+Project1.exe: 00004454: 13:40:12 [HandleFileRequest[192.168.21.13]]:File not found: D:\New folder (4)\Win32\Debug\D:\New folder (4)\Win32\Debug\cache\project1_exe\3jwsOcqMaw10A7A51EF\test.pdf
+Project1.exe: 000033E4: 14:21:43 [192.168.21.13]:EUniSessionException : Invalid session or session Timeout. (Session not found: 3jwsOcqMaw10A7A51EF ) : Addr: $007E6A27
+Project1.exe: 000047B4: 14:21:43 [192.168.21.13]:EUniSessionException : Invalid session or session Timeout. (Session not found: 3jwsOcqMaw10A7A51EF ) : Addr: $007E6A27
+Project1.exe: 000047B4: 14:21:43 [192.168.21.13]:EUniSessionException : Invalid session or session Timeout. (Session not found: 3jwsOcqMaw10A7A51EF ) : Addr: $007E6A27
+Project1.exe: 000033E4: 14:21:43 [192.168.21.13]:EUniSessionException : Invalid session or session Timeout. (Session not found: 3jwsOcqMaw10A7A51EF ) : Addr: $007E6A27
+Project1.exe: 000033E4: 14:27:29 [HandleFileRequest[192.168.21.13]]:File not found: D:\New folder (4)\Win32\Debug\D:\New folder (4)\Win32\Debug\cache\project1_exe\HKGk29Cu3J10A7A61A8\test.pdf
+Project1.exe: 00003B0C: 14:27:35 [HandleFileRequest[192.168.21.13]]:File not found: D:\New folder (4)\Win32\Debug\D:\New folder (4)\Win32\Debug\cache\project1_exe\HKGk29Cu3J10A7A61A8\test.pdf
+Project1.exe: 00004754: 14:27:41 [HandleFileRequest[192.168.21.13]]:File not found: D:\New folder (4)\Win32\Debug\D:\New folder (4)\Win32\Debug\cache\project1_exe\HKGk29Cu3J10A7A61A8\test.pdf
+Project1.exe: 00004204: 14:27:43 [HandleFileRequest[192.168.21.13]]:File not found: D:\New folder (4)\Win32\Debug\D:\New folder (4)\Win32\Debug\cache\project1_exe\HKGk29Cu3J10A7A61A8\test.pdf
+Project1.exe: 00002960: 14:27:46 [HandleFileRequest[192.168.21.13]]:File not found: D:\New folder (4)\Win32\Debug\D:\New folder (4)\Win32\Debug\cache\project1_exe\HKGk29Cu3J10A7A61A8\test.pdf
+Project1.exe: 00003AD8: 14:27:59 [HandleFileRequest[192.168.21.13]]:File not found: D:\New folder (4)\Win32\Debug\D:\New folder (4)\Win32\Debug\cache\project1_exe\HKGk29Cu3J10A7A61A8\test.pdf
+Project1.exe: 00001070: 14:28:28 [HandleFileRequest[192.168.21.13]]:File not found: D:\New folder (4)\Win32\Debug\D:\New folder (4)\Win32\Debug\cache\project1_exe\HKGk29Cu3J10A7A61A8\test.pdf
+Project1.exe: 00001378: 14:28:51 [HandleFileRequest[192.168.21.13]]:File not found: D:\New folder (4)\Win32\Debug\D:\New folder (4)\Win32\Debug\cache\project1_exe\HKGk29Cu3J10A7A61A8\test.pdf
+Project1.exe: 00003A50: 14:28:52 [HandleFileRequest[192.168.21.13]]:File not found: D:\New folder (4)\Win32\Debug\D:\New folder (4)\Win32\Debug\cache\project1_exe\HKGk29Cu3J10A7A61A8\test.pdf
+Project1.exe: 000044CC: 14:28:52 [HandleFileRequest[192.168.21.13]]:File not found: D:\New folder (4)\Win32\Debug\D:\New folder (4)\Win32\Debug\cache\project1_exe\HKGk29Cu3J10A7A61A8\test.pdf
+Project1.exe: 00003B0C: 14:28:52 [HandleFileRequest[192.168.21.13]]:File not found: D:\New folder (4)\Win32\Debug\D:\New folder (4)\Win32\Debug\cache\project1_exe\HKGk29Cu3J10A7A61A8\test.pdf
+Project1.exe: 00004318: 14:28:52 [HandleFileRequest[192.168.21.13]]:File not found: D:\New folder (4)\Win32\Debug\D:\New folder (4)\Win32\Debug\cache\project1_exe\HKGk29Cu3J10A7A61A8\test.pdf
+Project1.exe: 00004714: 14:29:03 [HandleFileRequest[192.168.21.13]]:File not found: D:\New folder (4)\Win32\Debug\D:\New folder (4)\Win32\Debug\cache\project1_exe\HKGk29Cu3J10A7A61A8\test.pdf
+Project1.exe: 000031B4: 14:29:04 [HandleFileRequest[192.168.21.13]]:File not found: D:\New folder (4)\Win32\Debug\D:\New folder (4)\Win32\Debug\cache\project1_exe\HKGk29Cu3J10A7A61A8\test.pdf
+Project1.exe: 00001B7C: 14:29:15 [HandleFileRequest[192.168.21.13]]:File not found: D:\New folder (4)\Win32\Debug\D:\New folder (4)\Win32\Debug\cache\project1_exe\AArw7DmOSp10A7A63AA\test.pdf
+Project1.exe: 000042A8: 14:29:31 [HandleFileRequest[192.168.21.13]]:File not found: D:\New folder (4)\Win32\Debug\D:\New folder (4)\Win32\Debug\cache\project1_exe\AArw7DmOSp10A7A63AA\test.pdf
+Project1.exe: 00000264: 14:29:32 [HandleFileRequest[192.168.21.13]]:File not found: D:\New folder (4)\Win32\Debug\D:\New folder (4)\Win32\Debug\cache\project1_exe\AArw7DmOSp10A7A63AA\test.pdf
+Project1.exe: 00004290: 14:29:32 [HandleFileRequest[192.168.21.13]]:File not found: D:\New folder (4)\Win32\Debug\D:\New folder (4)\Win32\Debug\cache\project1_exe\AArw7DmOSp10A7A63AA\test.pdf
+Project1.exe: 00003ECC: 14:30:28 []:>--------------------------------------------------------------<
+Project1.exe: 00003ECC: 14:30:28 [TUniServerModule]:Server First Init.
+Project1.exe: 00003ECC: 14:30:28 [TUniServerModule]:Start Path = D:\New folder (4)\Win32\Debug\
+Project1.exe: 00003ECC: 14:30:28 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Project1.exe: 00003ECC: 14:30:28 [InitWebServer]:EIdCouldNotBindSocket : Could not bind socket. : Addr: $006DA207
+Project1.exe: 00000FCC: 14:32:22 [TUniServerModule]:Shutting Down Server.
+Project1.exe: 00000FCC: 14:32:22 [TUniServerModule]:Stopping HTTP Server.
+Project1.exe: 00000FCC: 14:32:22 [TUniServerModule]:HTTP Server Stopped.
+Project1.exe: 00000FCC: 14:32:22 [TUniGUISessionManager]:Terminating Session manager.
+Project1.exe: 00000FCC: 14:32:22 [TUniGUISessionManager]:Stopping Cache Eraser...
+Project1.exe: 00000FCC: 14:32:22 [TUniGUISessionManager]:Cache Eraser Stopped.
+Project1.exe: 00000FCC: 14:32:22 [TUniGUISessionManager]:Destroying Worker Threads.
+Project1.exe: 00000FCC: 14:32:22 [TUniGUISessionManager]:Session manager terminated.
+Project1.exe: 00000FCC: 14:32:22 [TUniServerModule]:Server Shutdown Completed.
+Project1.exe: 00000FCC: 14:32:22 []:<-------------------------------------------------------------->
+Project1.exe: 00000FCC: 14:32:22 [Terminated]:Exit Code: 0
+Project1.exe: 00003ECC: 14:32:23 [TUniServerModule]:Shutting Down Server.
+Project1.exe: 00003ECC: 14:32:23 [TUniServerModule]:Stopping HTTP Server.
+Project1.exe: 00003ECC: 14:32:24 [TUniServerModule]:HTTP Server Stopped.
+Project1.exe: 00003ECC: 14:32:24 [TUniGUISessionManager]:Terminating Session manager.
+Project1.exe: 00003ECC: 14:32:24 [TUniGUISessionManager]:Stopping Cache Eraser...
+Project1.exe: 00003ECC: 14:32:24 [TUniGUISessionManager]:Cache Eraser Stopped.
+Project1.exe: 00003ECC: 14:32:24 [TUniGUISessionManager]:Destroying Worker Threads.
+Project1.exe: 00003ECC: 14:32:24 [TUniGUISessionManager]:Session manager terminated.
+Project1.exe: 00003ECC: 14:32:24 [TUniServerModule]:Server Shutdown Completed.
+Project1.exe: 00003ECC: 14:32:24 []:<-------------------------------------------------------------->
+Project1.exe: 00003ECC: 14:32:24 [Terminated]:Exit Code: 0
+Project1.exe: 0000265C: 14:32:25 [TUniServerModule]:Shutting Down Server.
+Project1.exe: 0000265C: 14:32:25 [TUniServerModule]:Stopping HTTP Server.
+Project1.exe: 0000265C: 14:32:26 [TUniServerModule]:HTTP Server Stopped.
+Project1.exe: 0000265C: 14:32:26 [TUniGUISessionManager]:Terminating Session manager.
+Project1.exe: 0000265C: 14:32:26 [TUniGUISessionManager]:Stopping Cache Eraser...
+Project1.exe: 0000265C: 14:32:26 [TUniGUISessionManager]:Cache Eraser Stopped.
+Project1.exe: 0000265C: 14:32:26 [TUniGUISessionManager]:Destroying Worker Threads.
+Project1.exe: 0000265C: 14:32:26 [TUniGUISessionManager]:Session manager terminated.
+Project1.exe: 0000265C: 14:32:26 [TUniServerModule]:Server Shutdown Completed.
+Project1.exe: 0000265C: 14:32:26 []:<-------------------------------------------------------------->
+Project1.exe: 0000265C: 14:32:26 [Terminated]:Exit Code: 0
+Project1.exe: 000004DC: 14:34:45 []:>--------------------------------------------------------------<
+Project1.exe: 000004DC: 14:34:45 [TUniServerModule]:Server First Init.
+Project1.exe: 000004DC: 14:34:45 [TUniServerModule]:Start Path = D:\New folder (4)\Win32\Debug\
+Project1.exe: 000004DC: 14:34:45 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Project1.exe: 000004DC: 14:34:45 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Project1.exe: 000004DC: 14:34:45 [TUniServerModule]:HTTP Server Started on Port: 8077
+Project1.exe: 000034A4: 14:35:08 [HandleFileRequest[127.0.0.1]]:File not found: D:\New folder (4)\Win32\Debug\D:\New folder (4)\Win32\Debug\cache\project1_exe\SE8C8U1rOC10A7A653E\test.pdf
+Project1.exe: 00002848: 14:35:15 [HandleFileRequest[127.0.0.1]]:File not found: D:\New folder (4)\Win32\Debug\D:\New folder (4)\Win32\Debug\cache\project1_exe\SE8C8U1rOC10A7A653E\test.pdf
+Project1.exe: 000004DC: 14:41:58 [TUniServerModule]:Shutting Down Server.
+Project1.exe: 000004DC: 14:41:58 [TUniServerModule]:Stopping HTTP Server.
+Project1.exe: 000004DC: 14:41:59 [TUniServerModule]:HTTP Server Stopped.
+Project1.exe: 000004DC: 14:41:59 [TUniGUISessionManager]:Terminating Session manager.
+Project1.exe: 000004DC: 14:41:59 [TUniGUISessionManager]:Stopping Cache Eraser...
+Project1.exe: 000004DC: 14:41:59 [TUniGUISessionManager]:Cache Eraser Stopped.
+Project1.exe: 000004DC: 14:41:59 [TUniGUISessionManager]:Destroying Worker Threads.
+Project1.exe: 000004DC: 14:41:59 [TUniGUISessionManager]:Session manager terminated.
+Project1.exe: 000004DC: 14:41:59 [TUniServerModule]:Server Shutdown Completed.
+Project1.exe: 000004DC: 14:41:59 []:<-------------------------------------------------------------->
+Project1.exe: 000004DC: 14:41:59 [Terminated]:Exit Code: 0

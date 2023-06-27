@@ -1,0 +1,23 @@
+PuniSalary2023.exe: 00004454: 14:54:07 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00004454: 14:54:07 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00004454: 14:54:07 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00004454: 14:54:07 [TUniServerModule]:Starting HTTP Server on Port: 8088...
+PuniSalary2023.exe: 00004454: 14:54:07 [TUniServerModule]:HTTP Server Started on Port: 8088
+PuniSalary2023.exe: 000011F8: 14:57:27 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 000011F8: 14:57:27 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 000011F8: 14:57:27 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 000011F8: 14:57:27 [TUniServerModule]:Starting HTTP Server on Port: 8088...
+PuniSalary2023.exe: 000011F8: 14:57:27 [TUniServerModule]:HTTP Server Started on Port: 8088
+PuniSalary2023.exe: 00004E1C: 15:04:44 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00004E1C: 15:04:44 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00004E1C: 15:04:44 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00004E1C: 15:04:44 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00004E1C: 15:04:44 [TUniServerModule]:Starting HTTP Server on Port: 8088...
+PuniSalary2023.exe: 00004E1C: 15:04:44 [TUniServerModule]:HTTP Server Started on Port: 8088
+PuniSalary2023.exe: 00002548: 15:06:16 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00002548: 15:06:16 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00002548: 15:06:16 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00002548: 15:06:16 [TUniServerModule]:Starting HTTP Server on Port: 8088...
+PuniSalary2023.exe: 00002548: 15:06:16 [TUniServerModule]:HTTP Server Started on Port: 8088
+PuniSalary2023.exe: 00004D68: 15:07:05 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: KnGNzZqH8I10CBCBB0F ) : Addr: $007CA393
+PuniSalary2023.exe: 00002548: 16:33:04 [Exit]:Unexpected attempt to terminate server application with Exit Code: 0

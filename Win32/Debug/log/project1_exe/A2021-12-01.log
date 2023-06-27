@@ -1,0 +1,16 @@
+Project1.exe: 0000196C: 15:27:11 []:>--------------------------------------------------------------<
+Project1.exe: 0000196C: 15:27:11 [TUniServerModule]:Server First Init.
+Project1.exe: 0000196C: 15:27:11 [TUniServerModule]:Start Path = D:\New folder (4)\Win32\Debug\
+Project1.exe: 0000196C: 15:27:11 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Project1.exe: 0000196C: 15:27:11 [InitWebServer]:EIdCouldNotBindSocket : Could not bind socket. : Addr: $006D9ACF
+Project1.exe: 0000196C: 15:27:48 [TUniServerModule]:Shutting Down Server.
+Project1.exe: 0000196C: 15:27:48 [TUniServerModule]:Stopping HTTP Server.
+Project1.exe: 0000196C: 15:27:49 [TUniServerModule]:HTTP Server Stopped.
+Project1.exe: 0000196C: 15:27:49 [TUniGUISessionManager]:Terminating Session manager.
+Project1.exe: 0000196C: 15:27:49 [TUniGUISessionManager]:Stopping Cache Eraser...
+Project1.exe: 0000196C: 15:27:49 [TUniGUISessionManager]:Cache Eraser Stopped.
+Project1.exe: 0000196C: 15:27:49 [TUniGUISessionManager]:Destroying Worker Threads.
+Project1.exe: 0000196C: 15:27:49 [TUniGUISessionManager]:Session manager terminated.
+Project1.exe: 0000196C: 15:27:49 [TUniServerModule]:Server Shutdown Completed.
+Project1.exe: 0000196C: 15:27:49 []:<-------------------------------------------------------------->
+Project1.exe: 0000196C: 15:27:49 [Terminated]:Exit Code: 0

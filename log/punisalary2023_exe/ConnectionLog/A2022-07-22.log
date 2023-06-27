@@ -1,0 +1,8 @@
+PuniSalary2023.exe: 00004488: 16:23:54 [127.0.0.1]:Failed Sequence Recovery: SeqId: 5, Event: click
+PuniSalary2023.exe: 00003D28: 16:24:23 [127.0.0.1]:Failed Sequence Recovery: SeqId: 6, Event: click
+PuniSalary2023.exe: 00004488: 16:26:00 [127.0.0.1]:Sequence sent from cache:  SeqId: 5
+PuniSalary2023.exe: 00004488: 16:26:00 [127.0.0.1]:Processed: Id: 5, Evt: click, [bkbNe73HTW10AD17C2A]
+PuniSalary2023.exe: 00003F84: 16:26:00 [127.0.0.1]:Sequence Error Timeout : TDiff:123922, Event: beforeclose, Expected: 10, Received: 11, [bkbNe73HTW10AD17C2A]
+PuniSalary2023.exe: 00003F84: 16:26:00 [127.0.0.1]:Failed Sequence Reset to: 10
+PuniSalary2023.exe: 00003D28: 16:26:34 [127.0.0.1]:Sequence sent from cache:  SeqId: 6
+PuniSalary2023.exe: 00003D28: 16:26:34 [127.0.0.1]:Processed: Id: 6, Evt: click, [bkbNe73HTW10AD17C2A]

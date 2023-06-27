@@ -1,0 +1,62 @@
+object UniMainModule: TUniMainModule
+  OldCreateOrder = False
+  OnCreate = UniGUIMainModuleCreate
+  Theme = 'triton'
+  MonitoredKeys.Keys = <>
+  ServerMessages.InvalidSessionMessage = 'session Timeout. '#3585#3619#3640#3603#3634#3648#3586#3657#3634#3651#3594#3657#3591#3634#3609#3651#3627#3617#3656
+  Title = 'E-service Udonpao'
+  Height = 464
+  Width = 629
+  object UniConnection1: TUniConnection
+    ProviderName = 'SQL Server'
+    LoginPrompt = False
+    Left = 485
+    Top = 16
+  end
+  object SQLServerUniProvider1: TSQLServerUniProvider
+    Left = 525
+    Top = 16
+  end
+  object UniQuery11: TUniQuery
+    Connection = UniConnection1
+    SQL.Strings = (
+      'select * from SRposition')
+    Left = 104
+    Top = 88
+  end
+  object UniDataSource11: TUniDataSource
+    DataSet = UniQuery11
+    Left = 144
+    Top = 88
+  end
+  object UniQuery12: TUniQuery
+    Connection = UniConnection1
+    SQL.Strings = (
+      'select * from mdep')
+    Left = 104
+    Top = 136
+  end
+  object UniDataSource12: TUniDataSource
+    DataSet = UniQuery12
+    Left = 144
+    Top = 136
+  end
+  object UniQuery13: TUniQuery
+    Connection = UniConnection1
+    SQL.Strings = (
+      'select * from SRgroup')
+    Left = 104
+    Top = 184
+  end
+  object UniDataSource13: TUniDataSource
+    DataSet = UniQuery13
+    Left = 144
+    Top = 184
+  end
+  object UniFSTheme1: TUniFSTheme
+    Style = Future
+    Enabled = False
+    Left = 304
+    Top = 72
+  end
+end

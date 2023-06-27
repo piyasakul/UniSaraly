@@ -1,0 +1,10 @@
+PuniSalary2023.exe: 00004BA8: 14:36:41 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00004BA8: 14:36:41 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00004BA8: 14:36:41 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00004BA8: 14:36:41 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00004BA8: 14:36:41 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00003B18: 16:53:55 [127.0.0.1]:EUniError : Named Pipes Provider: Could not open a connection to SQL Server [53].  : Addr: $009129C8
+PuniSalary2023.exe: 00002FB4: 16:54:28 [127.0.0.1]:EUniError : Named Pipes Provider: Could not open a connection to SQL Server [53].  : Addr: $009129C8
+PuniSalary2023.exe: 00004A54: 16:55:01 [127.0.0.1]:EUniError : Named Pipes Provider: Could not open a connection to SQL Server [53].  : Addr: $009129C8
+PuniSalary2023.exe: 00004824: 16:55:35 [127.0.0.1]:EUniError : Named Pipes Provider: Could not open a connection to SQL Server [53].  : Addr: $009129C8
+PuniSalary2023.exe: 00004BA8: 17:04:38 [Exit]:Unexpected attempt to terminate server application with Exit Code: 0

@@ -1,0 +1,44 @@
+PuniSalary2023.exe: 000027B0: 10:29:54 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 000027B0: 10:29:54 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 000027B0: 10:29:54 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 000027B0: 10:29:54 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 000027B0: 10:29:54 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 000006EC: 10:34:56 [127.0.0.1]:EDatabaseError : UniQuery3: Cannot perform this operation on a closed dataset : Addr: $0068EA2A
+PuniSalary2023.exe: 000034C0: 10:35:37 []:Copy Data By ->00000 IP:127.0.0.1
+PuniSalary2023.exe: 000045B0: 11:10:43 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: sIVgx4PjEy10BD176A1 ) : Addr: $007C2727
+PuniSalary2023.exe: 000043C4: 11:28:25 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: BnIWkLSAsa10BD18075 ) : Addr: $007C2727
+PuniSalary2023.exe: 00003900: 11:33:31 []:Copy Data By ->00001 IP:127.0.0.1
+PuniSalary2023.exe: 00003AE4: 11:35:21 []:Delete Data By ->00001 IP:127.0.0.1
+PuniSalary2023.exe: 00003A48: 12:39:19 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: U26N7DnKAr10BD18650 ) : Addr: $007C2727
+PuniSalary2023.exe: 00000808: 14:19:24 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00000808: 14:19:24 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00000808: 14:19:24 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00000808: 14:19:24 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00000808: 14:19:24 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00000808: 14:19:24 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00005614: 14:22:28 [127.0.0.1]:EDatabaseError : UniQuery3: Cannot perform this operation on a closed dataset : Addr: $0068EA2A
+PuniSalary2023.exe: 00004148: 14:23:58 [127.0.0.1]:EDatabaseError : UniQuery3: Cannot perform this operation on a closed dataset : Addr: $0068EA2A
+PuniSalary2023.exe: 00004148: 14:25:00 []:Copy Data By ->00001 IP:127.0.0.1
+PuniSalary2023.exe: 00004688: 14:57:22 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: pmOMKTnLI610BD1B440 ) : Addr: $007C2727
+PuniSalary2023.exe: 00004688: 14:58:00 []:Copy Data By ->00001 IP:127.0.0.1
+PuniSalary2023.exe: 00005194: 14:58:38 []:Delete Data By ->00001 IP:127.0.0.1
+PuniSalary2023.exe: 00005194: 15:00:14 []:Delete Data By ->00001 IP:127.0.0.1
+PuniSalary2023.exe: 000034CC: 15:01:55 []:Delete Data By ->00001 IP:127.0.0.1
+PuniSalary2023.exe: 00005434: 15:02:56 []:Delete Data By ->00001 IP:127.0.0.1
+PuniSalary2023.exe: 00005524: 15:10:31 []:Delete Data By ->00001 IP:127.0.0.1
+PuniSalary2023.exe: 00004B1C: 15:50:20 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: uK42uTPqd510BD1BDED ) : Addr: $007C2727
+PuniSalary2023.exe: 00004A20: 15:57:44 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00004A20: 15:57:44 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00004A20: 15:57:44 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00004A20: 15:57:44 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00004A20: 15:57:44 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 0000508C: 16:21:42 []:Delete Data By ->00001 IP:127.0.0.1
+PuniSalary2023.exe: 00001F38: 16:22:30 []:Copy Data By ->00001 IP:127.0.0.1
+PuniSalary2023.exe: 00001F38: 16:23:06 []:Delete Data By ->00001 IP:127.0.0.1
+PuniSalary2023.exe: 000013B0: 16:24:18 []:Delete Data By ->00001 IP:127.0.0.1
+PuniSalary2023.exe: 000050E0: 16:25:11 []:Copy Data list By ->00001 IP:127.0.0.1
+PuniSalary2023.exe: 000013B0: 16:25:35 []:Delete Data By ->00001 IP:127.0.0.1
+PuniSalary2023.exe: 00005050: 16:27:49 []:Copy Data list By ->00001 IP:127.0.0.1
+PuniSalary2023.exe: 00000E48: 16:39:14 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: F6ahZuTduI10BD1987D ) : Addr: $007C2727
+PuniSalary2023.exe: 00000E48: 16:39:15 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: KzWGZs9uXR10BD1D1E2 ) : Addr: $007C2727
+PuniSalary2023.exe: 00004A20: 16:39:37 [Exit]:Unexpected attempt to terminate server application with Exit Code: 0

@@ -1,0 +1,24 @@
+PuniSalary2023.exe: 00004DC8: 12:44:14 [192.168.23.116]:Failed Sequence Recovery: SeqId: 109, Event: click
+PuniSalary2023.exe: 00004DC4: 12:44:54 [192.168.23.116]:Failed Sequence Recovery: SeqId: 109, Event: click
+PuniSalary2023.exe: 00004DC8: 12:45:19 [192.168.23.116]:Sequence sent from cache:  SeqId: 109
+PuniSalary2023.exe: 00004DC8: 12:45:19 [192.168.23.116]:Processed: Id: 109, Evt: click, [lz4KTgbqgn10B45377B]
+PuniSalary2023.exe: 00004DC4: 12:45:19 [192.168.23.116]:Sequence sent from cache:  SeqId: 109
+PuniSalary2023.exe: 00004DC4: 12:45:19 [192.168.23.116]:Processed: Id: 109, Evt: click, [lz4KTgbqgn10B45377B]
+PuniSalary2023.exe: 00004870: 12:45:20 [192.168.23.116]:Failed Sequence Recovery: SeqId: 110, Event: click
+PuniSalary2023.exe: 00004870: 12:45:20 [192.168.23.116]:Sequence sent from cache:  SeqId: 110
+PuniSalary2023.exe: 00004870: 12:45:20 [192.168.23.116]:Processed: Id: 110, Evt: click, [lz4KTgbqgn10B45377B]
+PuniSalary2023.exe: 00004464: 12:45:20 [192.168.23.116]:Failed Sequence Recovery: SeqId: 111, Event: click
+PuniSalary2023.exe: 00004464: 12:45:20 [192.168.23.116]:Sequence sent from cache:  SeqId: 111
+PuniSalary2023.exe: 00004464: 12:45:20 [192.168.23.116]:Processed: Id: 111, Evt: click, [lz4KTgbqgn10B45377B]
+PuniSalary2023.exe: 00004E40: 12:45:20 [192.168.23.116]:Failed Sequence Recovery: SeqId: 112, Event: beforeactivate
+PuniSalary2023.exe: 00004E40: 12:45:20 [192.168.23.116]:Sequence sent from cache:  SeqId: 112
+PuniSalary2023.exe: 00004E40: 12:45:20 [192.168.23.116]:Processed: Id: 112, Evt: beforeactivate, [lz4KTgbqgn10B45377B]
+PuniSalary2023.exe: 00004E40: 12:45:20 [192.168.23.116]:Failed Sequence Recovery: SeqId: 113, Event: tabchange
+PuniSalary2023.exe: 00004E40: 12:45:20 [192.168.23.116]:Sequence sent from cache:  SeqId: 113
+PuniSalary2023.exe: 00004E40: 12:45:20 [192.168.23.116]:Processed: Id: 113, Evt: tabchange, [lz4KTgbqgn10B45377B]
+PuniSalary2023.exe: 00004E40: 12:45:21 [192.168.23.116]:Failed Sequence Recovery: SeqId: 114, Event: selectionchange
+PuniSalary2023.exe: 00004E40: 12:45:21 [192.168.23.116]:Sequence sent from cache:  SeqId: 114
+PuniSalary2023.exe: 00004E40: 12:45:21 [192.168.23.116]:Processed: Id: 114, Evt: selectionchange, [lz4KTgbqgn10B45377B]
+PuniSalary2023.exe: 00004464: 12:45:21 [192.168.23.116]:Failed Sequence Recovery: SeqId: 115, Event: beforeedit
+PuniSalary2023.exe: 00004464: 12:45:21 [192.168.23.116]:Sequence sent from cache:  SeqId: 115
+PuniSalary2023.exe: 00004464: 12:45:21 [192.168.23.116]:Processed: Id: 115, Evt: beforeedit, [lz4KTgbqgn10B45377B]

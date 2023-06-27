@@ -1,0 +1,42 @@
+PuniSalary2023.exe: 00002CE8: 14:00:58 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00002CE8: 14:00:58 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00002CE8: 14:00:58 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00002CE8: 14:00:58 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00002CE8: 14:00:58 [InitWebServer]:EIdCouldNotBindSocket : Could not bind socket. : Addr: $006F2A9B
+PuniSalary2023.exe: 00002CE8: 14:01:26 [TUniServerModule]:Shutting Down Server.
+PuniSalary2023.exe: 00002CE8: 14:01:26 [TUniServerModule]:Stopping HTTP Server.
+PuniSalary2023.exe: 00002CE8: 14:01:26 [TUniServerModule]:HTTP Server Stopped.
+PuniSalary2023.exe: 00002CE8: 14:01:26 [TUniGUISessionManager]:Terminating Session manager.
+PuniSalary2023.exe: 00002CE8: 14:01:26 [TUniGUISessionManager]:Stopping Cache Eraser...
+PuniSalary2023.exe: 00002CE8: 14:01:26 [TUniGUISessionManager]:Cache Eraser Stopped.
+PuniSalary2023.exe: 00002CE8: 14:01:26 [TUniGUISessionManager]:Destroying Worker Threads.
+PuniSalary2023.exe: 00002CE8: 14:01:26 [TUniGUISessionManager]:Session manager terminated.
+PuniSalary2023.exe: 00002CE8: 14:01:27 [TUniServerModule]:Server Shutdown Completed.
+PuniSalary2023.exe: 00002CE8: 14:01:27 []:<-------------------------------------------------------------->
+PuniSalary2023.exe: 00002CE8: 14:01:27 [Terminated]:Exit Code: 0
+PuniSalary2023.exe: 000033A4: 14:01:31 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 000033A4: 14:01:31 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 000033A4: 14:01:31 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 000033A4: 14:01:31 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 000033A4: 14:01:31 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 000020C4: 14:55:06 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 3rMALU1eBp10AE53659 ) : Addr: $007FEFFF
+PuniSalary2023.exe: 000033A4: 15:03:39 [TUniServerModule]:Shutting Down Server.
+PuniSalary2023.exe: 000033A4: 15:03:39 [TUniServerModule]:Stopping HTTP Server.
+PuniSalary2023.exe: 000033A4: 15:03:40 [TUniServerModule]:HTTP Server Stopped.
+PuniSalary2023.exe: 000033A4: 15:03:40 [TUniGUISessionManager]:Terminating Session manager.
+PuniSalary2023.exe: 000033A4: 15:03:40 [TUniGUISessionManager]:Stopping Cache Eraser...
+PuniSalary2023.exe: 000033A4: 15:03:40 [TUniGUISessionManager]:Cache Eraser Stopped.
+PuniSalary2023.exe: 000033A4: 15:03:40 [TUniGUISessionManager]:Destroying Worker Threads.
+PuniSalary2023.exe: 000033A4: 15:03:40 [TUniGUISessionManager]:Session manager terminated.
+PuniSalary2023.exe: 000033A4: 15:03:40 [TUniServerModule]:Server Shutdown Completed.
+PuniSalary2023.exe: 000033A4: 15:03:40 []:<-------------------------------------------------------------->
+PuniSalary2023.exe: 000033A4: 15:03:40 [Terminated]:Exit Code: 0
+PuniSalary2023.exe: 00002EF0: 15:03:43 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00002EF0: 15:03:43 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00002EF0: 15:03:43 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00002EF0: 15:03:43 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00002EF0: 15:03:43 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00002EF0: 15:03:43 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 0000426C: 15:35:32 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: C7RrkiAI1V10AE53CD0 ) : Addr: $007FEFFF
+PuniSalary2023.exe: 000045E0: 15:59:58 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: ZBhQExnUqR10AE5456A ) : Addr: $007FEFFF
+PuniSalary2023.exe: 00002EF0: 16:28:28 [Exit]:Unexpected attempt to terminate server application with Exit Code: 0

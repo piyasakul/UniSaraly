@@ -1,0 +1,202 @@
+PuniSalary2023.exe: 00004A40: 08:46:46 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00004A40: 08:46:46 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00004A40: 08:46:46 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00004A40: 08:46:46 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00004A40: 08:46:46 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00004188: 08:46:58 [HandleFileRequest[127.0.0.1]]:File not found: D:\WorkSpace\UniSaraly\favicon.ico
+PuniSalary2023.exe: 000042D8: 10:01:22 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: CWJ71rjgeV10B236634 ) : Addr: $007FF1E7
+PuniSalary2023.exe: 000042D8: 10:01:22 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: CWJ71rjgeV10B236634 ) : Addr: $007FF1E7
+PuniSalary2023.exe: 00004BB0: 10:24:12 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: wCSDF1hiUV10B237A64 ) : Addr: $007FF1E7
+PuniSalary2023.exe: 00001F28: 12:27:24 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 8mPN5r1Clr10B238096 ) : Addr: $007FF1E7
+PuniSalary2023.exe: 00002A94: 13:47:18 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: l1UmXYdjxJ10B23A201 ) : Addr: $007FF1E7
+PuniSalary2023.exe: 000017C0: 14:00:53 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: S4fNDE5d4U10B23B7AD ) : Addr: $007FF1E7
+PuniSalary2023.exe: 00004A40: 14:19:06 [TUniServerModule]:Shutting Down Server.
+PuniSalary2023.exe: 00004A40: 14:19:06 [TUniServerModule]:Stopping HTTP Server.
+PuniSalary2023.exe: 00004A40: 14:19:07 [TUniServerModule]:HTTP Server Stopped.
+PuniSalary2023.exe: 00004A40: 14:19:07 [TUniGUISessionManager]:Terminating Session manager.
+PuniSalary2023.exe: 00004A40: 14:19:07 [TUniGUISessionManager]:Stopping Cache Eraser...
+PuniSalary2023.exe: 00004A40: 14:19:07 [TUniGUISessionManager]:Cache Eraser Stopped.
+PuniSalary2023.exe: 00004A40: 14:19:07 [TUniGUISessionManager]:Destroying Worker Threads.
+PuniSalary2023.exe: 00004A40: 14:19:07 [TUniGUISessionManager]:Session manager terminated.
+PuniSalary2023.exe: 00004A40: 14:19:07 [TUniServerModule]:Server Shutdown Completed.
+PuniSalary2023.exe: 00004A40: 14:19:07 []:<-------------------------------------------------------------->
+PuniSalary2023.exe: 00004A40: 14:19:07 [Terminated]:Exit Code: 0
+PuniSalary2023.exe: 000032CC: 14:19:10 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 000032CC: 14:19:10 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 000032CC: 14:19:10 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 000032CC: 14:19:10 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 000032CC: 14:19:10 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00004958: 14:31:36 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: ohTC1lgAoG10B23C05C ) : Addr: $007FF1E7
+PuniSalary2023.exe: 00004018: 14:45:43 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 8FhCTEYQLy10B23C3B2 ) : Addr: $007FF1E7
+PuniSalary2023.exe: 000032CC: 14:59:04 [TUniServerModule]:Shutting Down Server.
+PuniSalary2023.exe: 000032CC: 14:59:04 [TUniServerModule]:Stopping HTTP Server.
+PuniSalary2023.exe: 000032CC: 14:59:05 [TUniServerModule]:HTTP Server Stopped.
+PuniSalary2023.exe: 000032CC: 14:59:05 [TUniGUISessionManager]:Terminating Session manager.
+PuniSalary2023.exe: 000032CC: 14:59:05 [TUniGUISessionManager]:Stopping Cache Eraser...
+PuniSalary2023.exe: 000032CC: 14:59:05 [TUniGUISessionManager]:Cache Eraser Stopped.
+PuniSalary2023.exe: 000032CC: 14:59:05 [TUniGUISessionManager]:Destroying Worker Threads.
+PuniSalary2023.exe: 000032CC: 14:59:05 [TUniGUISessionManager]:Session manager terminated.
+PuniSalary2023.exe: 000032CC: 14:59:05 [TUniServerModule]:Server Shutdown Completed.
+PuniSalary2023.exe: 000032CC: 14:59:05 []:<-------------------------------------------------------------->
+PuniSalary2023.exe: 000032CC: 14:59:05 [Terminated]:Exit Code: 0
+PuniSalary2023.exe: 00002E74: 14:59:10 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00002E74: 14:59:10 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00002E74: 14:59:10 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00002E74: 14:59:10 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00002E74: 14:59:10 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00002E74: 15:01:17 [TUniServerModule]:Shutting Down Server.
+PuniSalary2023.exe: 00002E74: 15:01:17 [TUniServerModule]:Stopping HTTP Server.
+PuniSalary2023.exe: 00002E74: 15:01:18 [TUniServerModule]:HTTP Server Stopped.
+PuniSalary2023.exe: 00002E74: 15:01:18 [TUniGUISessionManager]:Terminating Session manager.
+PuniSalary2023.exe: 00002E74: 15:01:18 [TUniGUISessionManager]:Stopping Cache Eraser...
+PuniSalary2023.exe: 00002E74: 15:01:18 [TUniGUISessionManager]:Cache Eraser Stopped.
+PuniSalary2023.exe: 00002E74: 15:01:18 [TUniGUISessionManager]:Destroying Worker Threads.
+PuniSalary2023.exe: 00002E74: 15:01:18 [TUniGUISessionManager]:Session manager terminated.
+PuniSalary2023.exe: 00002E74: 15:01:18 [TUniServerModule]:Server Shutdown Completed.
+PuniSalary2023.exe: 00002E74: 15:01:18 []:<-------------------------------------------------------------->
+PuniSalary2023.exe: 00002E74: 15:01:18 [Terminated]:Exit Code: 0
+PuniSalary2023.exe: 00002FDC: 15:01:23 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00002FDC: 15:01:23 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00002FDC: 15:01:23 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00002FDC: 15:01:23 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00002FDC: 15:01:23 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00002FDC: 15:01:23 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00002FDC: 15:02:30 [TUniServerModule]:Shutting Down Server.
+PuniSalary2023.exe: 00002FDC: 15:02:30 [TUniServerModule]:Stopping HTTP Server.
+PuniSalary2023.exe: 00002FDC: 15:02:31 [TUniServerModule]:HTTP Server Stopped.
+PuniSalary2023.exe: 00002FDC: 15:02:31 [TUniGUISessionManager]:Terminating Session manager.
+PuniSalary2023.exe: 00002FDC: 15:02:31 [TUniGUISessionManager]:Stopping Cache Eraser...
+PuniSalary2023.exe: 00002FDC: 15:02:31 [TUniGUISessionManager]:Cache Eraser Stopped.
+PuniSalary2023.exe: 00002FDC: 15:02:31 [TUniGUISessionManager]:Destroying Worker Threads.
+PuniSalary2023.exe: 00002FDC: 15:02:31 [TUniGUISessionManager]:Session manager terminated.
+PuniSalary2023.exe: 00002FDC: 15:02:31 [TUniServerModule]:Server Shutdown Completed.
+PuniSalary2023.exe: 00002FDC: 15:02:31 []:<-------------------------------------------------------------->
+PuniSalary2023.exe: 00002FDC: 15:02:31 [Terminated]:Exit Code: 0
+PuniSalary2023.exe: 00002574: 15:02:34 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00002574: 15:02:34 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00002574: 15:02:34 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00002574: 15:02:34 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00002574: 15:02:34 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00002574: 15:02:34 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00000A64: 15:02:39 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: Eg3zefId5510B23CBD3 ) : Addr: $007FF1E7
+PuniSalary2023.exe: 00002574: 15:05:44 [TUniServerModule]:Shutting Down Server.
+PuniSalary2023.exe: 00002574: 15:05:44 [TUniServerModule]:Stopping HTTP Server.
+PuniSalary2023.exe: 00002574: 15:05:45 [TUniServerModule]:HTTP Server Stopped.
+PuniSalary2023.exe: 00002574: 15:05:45 [TUniGUISessionManager]:Terminating Session manager.
+PuniSalary2023.exe: 00002574: 15:05:45 [TUniGUISessionManager]:Stopping Cache Eraser...
+PuniSalary2023.exe: 00002574: 15:05:45 [TUniGUISessionManager]:Cache Eraser Stopped.
+PuniSalary2023.exe: 00002574: 15:05:45 [TUniGUISessionManager]:Destroying Worker Threads.
+PuniSalary2023.exe: 00002574: 15:05:46 [TUniGUISessionManager]:Session manager terminated.
+PuniSalary2023.exe: 00002574: 15:05:46 [TUniServerModule]:Server Shutdown Completed.
+PuniSalary2023.exe: 00002574: 15:05:46 []:<-------------------------------------------------------------->
+PuniSalary2023.exe: 00002574: 15:05:46 [Terminated]:Exit Code: 0
+PuniSalary2023.exe: 00003AF4: 15:05:50 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00003AF4: 15:05:50 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00003AF4: 15:05:50 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00003AF4: 15:05:50 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00003AF4: 15:05:50 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00003AF4: 15:05:50 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00004534: 15:15:19 [127.0.0.1]:EDatabaseError : UniQuery2: Field 'lname' not found : Addr: $0068BCB6
+PuniSalary2023.exe: 00004B60: 15:20:50 [127.0.0.1]:EDatabaseError : UniQuery2: Field 'lname' not found : Addr: $0068BCB6
+PuniSalary2023.exe: 000049A4: 15:39:57 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: Rc3xdCXnJ310B23CF6F ) : Addr: $007FF1E7
+PuniSalary2023.exe: 00000860: 15:41:58 [127.0.0.1]:EDatabaseError : UniQuery2: Field 'lname' not found : Addr: $0068BCB6
+PuniSalary2023.exe: 00000860: 15:42:40 [127.0.0.1]:EDatabaseError : UniQuery2: Field 'lname' not found : Addr: $0068BCB6
+PuniSalary2023.exe: 00000EEC: 15:45:35 [127.0.0.1]:EDatabaseError : UniQuery2: Field 'lname' not found : Addr: $0068BCB6
+PuniSalary2023.exe: 000005A8: 15:45:53 [127.0.0.1]:EDatabaseError : UniQuery2: Field 'lname' not found : Addr: $0068BCB6
+PuniSalary2023.exe: 00003AF4: 15:46:29 [TUniServerModule]:Shutting Down Server.
+PuniSalary2023.exe: 00003AF4: 15:46:29 [TUniServerModule]:Stopping HTTP Server.
+PuniSalary2023.exe: 00003AF4: 15:46:30 [TUniServerModule]:HTTP Server Stopped.
+PuniSalary2023.exe: 00003AF4: 15:46:30 [TUniGUISessionManager]:Terminating Session manager.
+PuniSalary2023.exe: 00003AF4: 15:46:30 [TUniGUISessionManager]:Stopping Cache Eraser...
+PuniSalary2023.exe: 00003AF4: 15:46:30 [TUniGUISessionManager]:Cache Eraser Stopped.
+PuniSalary2023.exe: 00003AF4: 15:46:30 [TUniGUISessionManager]:Destroying Worker Threads.
+PuniSalary2023.exe: 00003AF4: 15:46:30 [TUniGUISessionManager]:Session manager terminated.
+PuniSalary2023.exe: 00003AF4: 15:46:30 [TUniServerModule]:Server Shutdown Completed.
+PuniSalary2023.exe: 00003AF4: 15:46:30 []:<-------------------------------------------------------------->
+PuniSalary2023.exe: 00003AF4: 15:46:30 [Terminated]:Exit Code: 0
+PuniSalary2023.exe: 00002D90: 15:46:32 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00002D90: 15:46:32 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00002D90: 15:46:32 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00002D90: 15:46:32 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00002D90: 15:46:32 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00002D90: 15:46:32 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00004B4C: 15:46:38 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: kQua57ANoZ10B23D63D ) : Addr: $007FF1E7
+PuniSalary2023.exe: 00004B4C: 15:47:03 [127.0.0.1]:EDatabaseError : UniQuery2: Field 'lname' not found : Addr: $0068BCB6
+PuniSalary2023.exe: 00004B4C: 15:47:38 [127.0.0.1]:EDatabaseError : UniQuery2: Field 'lname' not found : Addr: $0068BCB6
+PuniSalary2023.exe: 00004B4C: 15:47:50 [127.0.0.1]:EDatabaseError : UniQuery2: Field 'lname' not found : Addr: $0068BCB6
+PuniSalary2023.exe: 00002D90: 15:49:34 [TUniServerModule]:Shutting Down Server.
+PuniSalary2023.exe: 00002D90: 15:49:34 [TUniServerModule]:Stopping HTTP Server.
+PuniSalary2023.exe: 00002D90: 15:49:35 [TUniServerModule]:HTTP Server Stopped.
+PuniSalary2023.exe: 00002D90: 15:49:35 [TUniGUISessionManager]:Terminating Session manager.
+PuniSalary2023.exe: 00002D90: 15:49:35 [TUniGUISessionManager]:Stopping Cache Eraser...
+PuniSalary2023.exe: 00002D90: 15:49:35 [TUniGUISessionManager]:Cache Eraser Stopped.
+PuniSalary2023.exe: 00002D90: 15:49:35 [TUniGUISessionManager]:Destroying Worker Threads.
+PuniSalary2023.exe: 00002D90: 15:49:35 [TUniGUISessionManager]:Session manager terminated.
+PuniSalary2023.exe: 00002D90: 15:49:35 [TUniServerModule]:Server Shutdown Completed.
+PuniSalary2023.exe: 00002D90: 15:49:35 []:<-------------------------------------------------------------->
+PuniSalary2023.exe: 00002D90: 15:49:35 [Terminated]:Exit Code: 0
+PuniSalary2023.exe: 00003284: 15:49:38 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00003284: 15:49:38 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00003284: 15:49:38 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00003284: 15:49:38 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00003284: 15:49:38 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00003284: 15:49:38 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00004134: 15:49:43 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: tjZRbqGNKb10B23D80A ) : Addr: $007FF1E7
+PuniSalary2023.exe: 00003284: 16:04:09 [TUniServerModule]:Shutting Down Server.
+PuniSalary2023.exe: 00003284: 16:04:09 [TUniServerModule]:Stopping HTTP Server.
+PuniSalary2023.exe: 00003284: 16:04:09 [TUniServerModule]:HTTP Server Stopped.
+PuniSalary2023.exe: 00003284: 16:04:09 [TUniGUISessionManager]:Terminating Session manager.
+PuniSalary2023.exe: 00003284: 16:04:09 [TUniGUISessionManager]:Stopping Cache Eraser...
+PuniSalary2023.exe: 00003284: 16:04:09 [TUniGUISessionManager]:Cache Eraser Stopped.
+PuniSalary2023.exe: 00003284: 16:04:09 [TUniGUISessionManager]:Destroying Worker Threads.
+PuniSalary2023.exe: 00003284: 16:04:09 [TUniGUISessionManager]:Session manager terminated.
+PuniSalary2023.exe: 00003284: 16:04:09 [TUniServerModule]:Server Shutdown Completed.
+PuniSalary2023.exe: 00003284: 16:04:09 []:<-------------------------------------------------------------->
+PuniSalary2023.exe: 00003284: 16:04:09 [Terminated]:Exit Code: 0
+PuniSalary2023.exe: 00003DE8: 16:24:13 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00003DE8: 16:24:13 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00003DE8: 16:24:13 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00003DE8: 16:24:13 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00003DE8: 16:24:13 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00003DE8: 16:27:08 [TUniServerModule]:Shutting Down Server.
+PuniSalary2023.exe: 00003DE8: 16:27:08 [TUniServerModule]:Stopping HTTP Server.
+PuniSalary2023.exe: 00003DE8: 16:27:09 [TUniServerModule]:HTTP Server Stopped.
+PuniSalary2023.exe: 00003DE8: 16:27:09 [TUniGUISessionManager]:Terminating Session manager.
+PuniSalary2023.exe: 00003DE8: 16:27:09 [TUniGUISessionManager]:Stopping Cache Eraser...
+PuniSalary2023.exe: 00003DE8: 16:27:09 [TUniGUISessionManager]:Cache Eraser Stopped.
+PuniSalary2023.exe: 00003DE8: 16:27:09 [TUniGUISessionManager]:Destroying Worker Threads.
+PuniSalary2023.exe: 00003DE8: 16:27:09 [TUniGUISessionManager]:Session manager terminated.
+PuniSalary2023.exe: 00003DE8: 16:27:09 [TUniServerModule]:Server Shutdown Completed.
+PuniSalary2023.exe: 00003DE8: 16:27:09 []:<-------------------------------------------------------------->
+PuniSalary2023.exe: 00003DE8: 16:27:09 [Terminated]:Exit Code: 0
+PuniSalary2023.exe: 00004EB8: 16:27:49 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00004EB8: 16:27:49 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00004EB8: 16:27:49 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00004EB8: 16:27:49 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00004EB8: 16:27:49 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00004EB8: 16:27:49 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00001104: 16:53:45 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 6SaG9cy2ln10B23D8E1 ) : Addr: $007FF1E7
+PuniSalary2023.exe: 00001104: 16:53:55 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: rGtyiIhj9W10B23CB41 ) : Addr: $007FF1E7
+PuniSalary2023.exe: 00001104: 16:53:56 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: C7krgsjsYh10B23CD0A ) : Addr: $007FF1E7
+PuniSalary2023.exe: 00001104: 16:53:57 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: KKhjKtwH9l10B23E24D ) : Addr: $007FF1E7
+PuniSalary2023.exe: 00004EB8: 17:02:38 [TUniServerModule]:Shutting Down Server.
+PuniSalary2023.exe: 00004EB8: 17:02:38 [TUniServerModule]:Stopping HTTP Server.
+PuniSalary2023.exe: 00004EB8: 17:02:38 [TUniServerModule]:HTTP Server Stopped.
+PuniSalary2023.exe: 00004EB8: 17:02:38 [TUniGUISessionManager]:Terminating Session manager.
+PuniSalary2023.exe: 00004EB8: 17:02:38 [TUniGUISessionManager]:Stopping Cache Eraser...
+PuniSalary2023.exe: 00004EB8: 17:02:38 [TUniGUISessionManager]:Cache Eraser Stopped.
+PuniSalary2023.exe: 00004EB8: 17:02:38 [TUniGUISessionManager]:Destroying Worker Threads.
+PuniSalary2023.exe: 00004EB8: 17:02:38 [TUniGUISessionManager]:Session manager terminated.
+PuniSalary2023.exe: 00004EB8: 17:02:38 [TUniServerModule]:Server Shutdown Completed.
+PuniSalary2023.exe: 00004EB8: 17:02:38 []:<-------------------------------------------------------------->
+PuniSalary2023.exe: 00004EB8: 17:02:38 [Terminated]:Exit Code: 0
+PuniSalary2023.exe: 00004E48: 17:03:35 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00004E48: 17:03:35 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00004E48: 17:03:35 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00004E48: 17:03:35 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00004E48: 17:03:35 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00000D00: 17:03:55 [UniQuery3: Field 'banknumber' not found-127.0.0.1]:EDatabaseError : UniQuery3: Field 'banknumber' not found : Addr: $009071B5
+PuniSalary2023.exe: 00000D00: 17:03:55 [127.0.0.1]:EDatabaseError : UniQuery14: Cannot perform this operation on a closed dataset : Addr: $0068BCB6
+PuniSalary2023.exe: 000038BC: 17:11:28 [127.0.0.1]:EUniError : Named Pipes Provider: Could not open a connection to SQL Server [53].  : Addr: $009071AC
+PuniSalary2023.exe: 00002E50: 17:11:55 [127.0.0.1]:EUniError : Named Pipes Provider: Could not open a connection to SQL Server [53].  : Addr: $009071AC
+PuniSalary2023.exe: 00004E48: 17:14:16 [Exit]:Unexpected attempt to terminate server application with Exit Code: 0

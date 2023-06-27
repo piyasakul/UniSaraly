@@ -1,0 +1,6 @@
+PuniSalary2023.exe: 000049D4: 08:42:20 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: LpRtfxiWbg10C24437F ) : Addr: $007CAA23
+PuniSalary2023.exe: 00004C18: 09:32:00 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: yrITnSoxL410C2544FB ) : Addr: $007CAA23
+PuniSalary2023.exe: 00004C18: 09:33:41 [127.0.0.1]:EUniError : Named Pipes Provider: Could not open a connection to SQL Server [53].  : Addr: $009129C8
+PuniSalary2023.exe: 00003348: 09:34:15 [127.0.0.1]:EUniError : Named Pipes Provider: Could not open a connection to SQL Server [53].  : Addr: $009129C8
+PuniSalary2023.exe: 000024C0: 10:41:01 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: TTzz1mcjMB10C255283 ) : Addr: $007CAA23
+PuniSalary2023.exe: 00003494: 13:29:16 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: xV1b3gWOIq10C2564C8 ) : Addr: $007CAA23

@@ -1,0 +1,20 @@
+PuniSalary2023.exe: 000029F0: 14:58:49 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 000029F0: 14:58:49 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 000029F0: 14:58:49 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 000029F0: 14:58:49 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 000029F0: 14:58:49 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 0000471C: 15:10:41 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 0000471C: 15:10:41 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 0000471C: 15:10:41 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 0000471C: 15:10:41 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 0000471C: 15:10:41 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 0000471C: 15:10:41 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 0000494C: 15:10:48 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: BvYZL3UzyE10BB648B4 ) : Addr: $007C2727
+PuniSalary2023.exe: 00004100: 15:21:12 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00004100: 15:21:12 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00004100: 15:21:12 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00004100: 15:21:12 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+PuniSalary2023.exe: 00004100: 15:21:12 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00004100: 15:21:12 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00002E7C: 15:21:31 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: YUAO6ur7v810BB64A53 ) : Addr: $007C2727
+PuniSalary2023.exe: 00004100: 16:36:14 [Exit]:Unexpected attempt to terminate server application with Exit Code: 0

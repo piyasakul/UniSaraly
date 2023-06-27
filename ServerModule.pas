@@ -1,0 +1,110 @@
+unit ServerModule;
+
+interface
+
+uses
+  Classes, SysUtils, uniGUIServer, uniGUIMainModule, uniGUIApplication, uIdCustomHTTPServer,
+  uniGUITypes, Data.DB, MemDS, DBAccess, Uni, UniProvider, MySQLUniProvider,
+  SQLServerUniProvider;
+
+type
+  TUniServerModule = class(TUniGUIServerModule)
+    procedure UniGUIServerModuleBeforeInit(Sender: TObject);
+  private
+    { Private declarations }
+  protected
+    procedure FirstInit; override;
+  public
+    { Public declarations }
+  end;
+
+function UniServerModule: TUniServerModule;
+function YearEng(DateEng: String): String;
+function YearE(DateEng: String): String;
+function YearThai(DateEng: String): String;
+function MonthThai(DateEng: String) : String;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  UniGUIVars;
+
+function UniServerModule: TUniServerModule;
+begin
+  Result:=TUniServerModule(UniGUIServerInstance);
+end;
+
+procedure TUniServerModule.FirstInit;
+begin
+  InitServerModule(Self);
+end;
+
+function YearEng(DateEng: String): String;
+var y,m,d :Word;
+begin
+      Result := '';
+      y := StrToInt(copy(DateEng,1,4));
+      if  y > 2400 then
+          y := y - 543;
+     // else
+     //     y := y + 543;
+
+      Result := IntToStr(y) + copy(DateEng,5,6);
+end;
+
+function YearE(DateEng: String): String;
+var y,m,d :Word;
+begin
+      Result := '';
+      y := StrToInt(copy(DateEng,1,4));
+      if  y > 2400 then
+          y := y - 543
+      else
+          y := y + 543;
+
+      Result := IntToStr(y);
+end;
+
+function YearThai(DateEng: String): String;
+var y,m,d :Word;
+begin
+      Result := '';
+      y := StrToInt(copy(DateEng,1,4));
+      if  y < 2400 then
+          y := y + 543;
+
+      Result := IntToStr(y);
+end;
+
+function MonthThai(DateEng: String) : String;
+begin
+    Result := '';
+    Case StrToInt(copy(DateEng,5,6)) of
+    1 : Result := 'มกราคม';
+    2 : Result := 'กุมภาพันธ์';
+    3 : Result :='มีนาคม';
+    4 : Result :='เมษายน';
+    5 : Result :='พฤษภาคม';
+    6 : Result :='มิถุนายน';
+    7 : Result :='กรกฏาคม';
+    8 : Result :='สิงหาคม';
+    9 : Result :='กันยายน';
+    10 : Result :='ตุลาคม';
+    11 : Result :='พฤศจิกายน';
+    12 : Result :='ธันวาคม';
+    else Result :='';
+    end;
+end;
+
+procedure TUniServerModule.UniGUIServerModuleBeforeInit(Sender: TObject);
+begin
+    self.Port:=8088;
+    self.SessionTimeout := 12000000;
+    self.Title := 'Salary V1.00';
+end;
+
+initialization
+  RegisterServerModuleClass(TUniServerModule);
+end.

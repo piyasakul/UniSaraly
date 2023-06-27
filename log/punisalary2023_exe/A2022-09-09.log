@@ -1,0 +1,8 @@
+PuniSalary2023.exe: 0000301C: 11:21:00 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 0000301C: 11:21:00 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 0000301C: 11:21:00 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 0000301C: 11:21:00 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 0000301C: 11:21:00 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00002230: 11:22:25 [HandleFileRequest[127.0.0.1]]:File not found: D:\WorkSpace\UniSaraly\favicon.ico
+PuniSalary2023.exe: 00000928: 12:37:47 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: lBJO5Z1YpM10B1BEF3E ) : Addr: $007FF1E7
+PuniSalary2023.exe: 0000301C: 16:30:04 [Exit]:Unexpected attempt to terminate server application with Exit Code: 0

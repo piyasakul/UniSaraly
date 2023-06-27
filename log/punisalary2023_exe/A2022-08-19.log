@@ -1,0 +1,3 @@
+PuniSalary2023.exe: 00005974: 08:49:31 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: aI5GdKGQWr10AFAAAD0 ) : Addr: $007FF1E7
+PuniSalary2023.exe: 000055F0: 08:55:16 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: YxpLiFiRST10AFA84A8 ) : Addr: $007FF1E7
+PuniSalary2023.exe: 00003A5C: 10:27:37 [Exit]:Unexpected attempt to terminate server application with Exit Code: 0

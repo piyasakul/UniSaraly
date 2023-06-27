@@ -1,0 +1,19 @@
+PuniSalary2023.exe: 00002DA4: 15:17:31 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 00002DA4: 15:17:31 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 00002DA4: 15:17:31 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 00002DA4: 15:17:31 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 00002DA4: 15:17:31 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00003EEC: 15:19:10 [127.0.0.1]:EUniError : Invalid object name 'Excel 8.0;database=testData.xls.Sheet1'. : Addr: $0090A4BC
+PuniSalary2023.exe: 00004734: 15:20:52 [127.0.0.1]:EUniError : Invalid object name 'Excel 8.0;database=testData.xls.Sheet1'. : Addr: $0090A4BC
+PuniSalary2023.exe: 00004734: 15:21:15 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Invalid URI: /D:/WorkSpace/UniSaraly/UploadFolder ) : Addr: $008024F7
+PuniSalary2023.exe: 00004734: 15:21:15 [HandleFileRequest[127.0.0.1]]:File not found: D:\WorkSpace\UniSaraly\favicon.ico
+PuniSalary2023.exe: 00004574: 15:23:33 [127.0.0.1]:EUniError : Invalid object name 'Excel 8.0;database=testData.xls.Sheet1'. : Addr: $0090A4BC
+PuniSalary2023.exe: 000044F0: 15:34:28 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 000044F0: 15:34:28 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 000044F0: 15:34:28 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 000044F0: 15:34:28 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 000044F0: 15:34:28 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 00002A10: 15:35:23 [127.0.0.1]:EUniError : Invalid object name 'Excel 8.0;database=D:\WorkSpace\UniSaraly\cache\punisalary2023_exe\kqLoXGjdhK10B6571B0\HOUUBS221027153523038.xls.Sheet1'. : Addr: $0090A4BC
+PuniSalary2023.exe: 00004490: 15:36:04 [127.0.0.1]:EUniError : Invalid object name 'Excel 8.0;database=D:\WorkSpace\UniSaraly\cache\punisalary2023_exe\kqLoXGjdhK10B6571B0\GODHUN221027153604666.xls.Sheet1'. : Addr: $0090A4BC
+PuniSalary2023.exe: 00004A98: 16:27:20 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: kqLoXGjdhK10B6571B0 ) : Addr: $008024F7
+PuniSalary2023.exe: 000044F0: 16:27:30 [Exit]:Unexpected attempt to terminate server application with Exit Code: 0

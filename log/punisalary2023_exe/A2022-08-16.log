@@ -1,0 +1,6 @@
+PuniSalary2023.exe: 000036F8: 12:01:26 []:>--------------------------------------------------------------<
+PuniSalary2023.exe: 000036F8: 12:01:26 [TUniServerModule]:Server First Init.
+PuniSalary2023.exe: 000036F8: 12:01:26 [TUniServerModule]:Start Path = D:\WorkSpace\UniSaraly\
+PuniSalary2023.exe: 000036F8: 12:01:26 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+PuniSalary2023.exe: 000036F8: 12:01:26 [TUniServerModule]:HTTP Server Started on Port: 8077
+PuniSalary2023.exe: 000036F8: 16:31:26 [Exit]:Unexpected attempt to terminate server application with Exit Code: 0

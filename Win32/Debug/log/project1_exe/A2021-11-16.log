@@ -1,0 +1,98 @@
+Project1.exe: 000006B4: 09:57:29 []:>--------------------------------------------------------------<
+Project1.exe: 000006B4: 09:57:29 [TUniServerModule]:Server First Init.
+Project1.exe: 000006B4: 09:57:29 [TUniServerModule]:Start Path = D:\New folder (4)\Win32\Debug\
+Project1.exe: 000006B4: 09:57:29 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Project1.exe: 000006B4: 09:57:29 [TUniServerModule]:HTTP Server Started on Port: 8077
+Project1.exe: 000006B4: 09:58:02 [TUniServerModule]:Shutting Down Server.
+Project1.exe: 000006B4: 09:58:02 [TUniServerModule]:Stopping HTTP Server.
+Project1.exe: 000006B4: 09:58:03 [TUniServerModule]:HTTP Server Stopped.
+Project1.exe: 000006B4: 09:58:03 [TUniGUISessionManager]:Terminating Session manager.
+Project1.exe: 000006B4: 09:58:03 [TUniGUISessionManager]:Stopping Cache Eraser...
+Project1.exe: 000006B4: 09:58:03 [TUniGUISessionManager]:Cache Eraser Stopped.
+Project1.exe: 000006B4: 09:58:03 [TUniGUISessionManager]:Destroying Worker Threads.
+Project1.exe: 000006B4: 09:58:03 [TUniGUISessionManager]:Session manager terminated.
+Project1.exe: 000006B4: 09:58:04 [TUniServerModule]:Server Shutdown Completed.
+Project1.exe: 000006B4: 09:58:04 []:<-------------------------------------------------------------->
+Project1.exe: 000006B4: 09:58:04 [Terminated]:Exit Code: 0
+Project1.exe: 00002360: 10:37:16 []:>--------------------------------------------------------------<
+Project1.exe: 00002360: 10:37:16 [TUniServerModule]:Server First Init.
+Project1.exe: 00002360: 10:37:16 [TUniServerModule]:Start Path = D:\New folder (4)\Win32\Debug\
+Project1.exe: 00002360: 10:37:16 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Project1.exe: 00002360: 10:37:16 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Project1.exe: 00002360: 10:37:16 [TUniServerModule]:HTTP Server Started on Port: 8077
+Project1.exe: 00002360: 10:38:10 [TUniServerModule]:Shutting Down Server.
+Project1.exe: 00002360: 10:38:10 [TUniServerModule]:Stopping HTTP Server.
+Project1.exe: 00002360: 10:38:11 [TUniServerModule]:HTTP Server Stopped.
+Project1.exe: 00002360: 10:38:11 [TUniGUISessionManager]:Terminating Session manager.
+Project1.exe: 00002360: 10:38:11 [TUniGUISessionManager]:Stopping Cache Eraser...
+Project1.exe: 00002360: 10:38:11 [TUniGUISessionManager]:Cache Eraser Stopped.
+Project1.exe: 00002360: 10:38:11 [TUniGUISessionManager]:Destroying Worker Threads.
+Project1.exe: 00002360: 10:38:11 [TUniGUISessionManager]:Session manager terminated.
+Project1.exe: 00002360: 10:38:11 [TUniServerModule]:Server Shutdown Completed.
+Project1.exe: 00002360: 10:38:11 []:<-------------------------------------------------------------->
+Project1.exe: 00002360: 10:38:11 [Terminated]:Exit Code: 0
+Project1.exe: 00003F48: 11:17:53 []:>--------------------------------------------------------------<
+Project1.exe: 00003F48: 11:17:53 [TUniServerModule]:Server First Init.
+Project1.exe: 00003F48: 11:17:53 [TUniServerModule]:Start Path = D:\New folder (4)\Win32\Debug\
+Project1.exe: 00003F48: 11:17:53 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Project1.exe: 00003F48: 11:17:53 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Project1.exe: 00003F48: 11:17:53 [TUniServerModule]:HTTP Server Started on Port: 8077
+Project1.exe: 00003F48: 15:15:49 [TUniServerModule]:Shutting Down Server.
+Project1.exe: 00003F48: 15:15:49 [TUniServerModule]:Stopping HTTP Server.
+Project1.exe: 00003F48: 15:15:49 [TUniServerModule]:HTTP Server Stopped.
+Project1.exe: 00003F48: 15:15:49 [TUniGUISessionManager]:Terminating Session manager.
+Project1.exe: 00003F48: 15:15:49 [TUniGUISessionManager]:Stopping Cache Eraser...
+Project1.exe: 00003F48: 15:15:49 [TUniGUISessionManager]:Cache Eraser Stopped.
+Project1.exe: 00003F48: 15:15:49 [TUniGUISessionManager]:Destroying Worker Threads.
+Project1.exe: 00003F48: 15:15:49 [TUniGUISessionManager]:Session manager terminated.
+Project1.exe: 00003F48: 15:15:49 [TUniServerModule]:Server Shutdown Completed.
+Project1.exe: 00003F48: 15:15:49 []:<-------------------------------------------------------------->
+Project1.exe: 00003F48: 15:15:49 [Terminated]:Exit Code: 0
+Project1.exe: 00002880: 15:15:53 []:>--------------------------------------------------------------<
+Project1.exe: 00002880: 15:15:53 [TUniServerModule]:Server First Init.
+Project1.exe: 00002880: 15:15:53 [TUniServerModule]:Start Path = D:\New folder (4)\Win32\Debug\
+Project1.exe: 00002880: 15:15:53 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Project1.exe: 00002880: 15:15:53 [TUniServerModule]:HTTP Server Started on Port: 8077
+Project1.exe: 0000088C: 15:16:35 [127.0.0.1]:Exception : Exporter is not enabled. : Addr: $007FE6E4
+Project1.exe: 0000088C: 15:16:40 [127.0.0.1]:Exception : Exporter is not enabled. : Addr: $007FE6E4
+Project1.exe: 0000088C: 15:16:43 [127.0.0.1]:Exception : Exporter is not enabled. : Addr: $007FE6E4
+Project1.exe: 0000088C: 15:17:15 [127.0.0.1]:Exception : Exporter is not enabled. : Addr: $007FE6E4
+Project1.exe: 00003AD4: 15:25:06 [127.0.0.1]:Exception : Exporter is not enabled. : Addr: $007FE6E4
+Project1.exe: 000016A8: 15:39:17 [127.0.0.1]:Exception : Exporter is not enabled. : Addr: $007FE6E4
+Project1.exe: 00002880: 15:40:26 [TUniServerModule]:Shutting Down Server.
+Project1.exe: 00002880: 15:40:26 [TUniServerModule]:Stopping HTTP Server.
+Project1.exe: 00002880: 15:40:27 [TUniServerModule]:HTTP Server Stopped.
+Project1.exe: 00002880: 15:40:27 [TUniGUISessionManager]:Terminating Session manager.
+Project1.exe: 00002880: 15:40:27 [TUniGUISessionManager]:Stopping Cache Eraser...
+Project1.exe: 00002880: 15:40:27 [TUniGUISessionManager]:Cache Eraser Stopped.
+Project1.exe: 00002880: 15:40:27 [TUniGUISessionManager]:Destroying Worker Threads.
+Project1.exe: 00002880: 15:40:27 [TUniGUISessionManager]:Session manager terminated.
+Project1.exe: 00002880: 15:40:27 [TUniServerModule]:Server Shutdown Completed.
+Project1.exe: 00002880: 15:40:27 []:<-------------------------------------------------------------->
+Project1.exe: 00002880: 15:40:27 [Terminated]:Exit Code: 0
+Project1.exe: 00000664: 15:40:33 []:>--------------------------------------------------------------<
+Project1.exe: 00000664: 15:40:33 [TUniServerModule]:Server First Init.
+Project1.exe: 00000664: 15:40:33 [TUniServerModule]:Start Path = D:\New folder (4)\Win32\Debug\
+Project1.exe: 00000664: 15:40:33 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Project1.exe: 00000664: 15:40:33 [TUniServerModule]:HTTP Server Started on Port: 8077
+Project1.exe: 00003150: 15:41:16 [127.0.0.1]:Exception : Exporter is not enabled. : Addr: $007FE6E4
+Project1.exe: 00003150: 15:43:36 [127.0.0.1]:Exception : Exporter is not enabled. : Addr: $007FE6E4
+Project1.exe: 00000664: 15:47:15 [TUniServerModule]:Shutting Down Server.
+Project1.exe: 00000664: 15:47:15 [TUniServerModule]:Stopping HTTP Server.
+Project1.exe: 00000664: 15:47:16 [TUniServerModule]:HTTP Server Stopped.
+Project1.exe: 00000664: 15:47:16 [TUniGUISessionManager]:Terminating Session manager.
+Project1.exe: 00000664: 15:47:16 [TUniGUISessionManager]:Stopping Cache Eraser...
+Project1.exe: 00000664: 15:47:16 [TUniGUISessionManager]:Cache Eraser Stopped.
+Project1.exe: 00000664: 15:47:16 [TUniGUISessionManager]:Destroying Worker Threads.
+Project1.exe: 00000664: 15:47:16 [TUniGUISessionManager]:Session manager terminated.
+Project1.exe: 00000664: 15:47:16 [TUniServerModule]:Server Shutdown Completed.
+Project1.exe: 00000664: 15:47:16 []:<-------------------------------------------------------------->
+Project1.exe: 00000664: 15:47:16 [Terminated]:Exit Code: 0
+Project1.exe: 000003B8: 15:49:27 []:>--------------------------------------------------------------<
+Project1.exe: 000003B8: 15:49:27 [TUniServerModule]:Server First Init.
+Project1.exe: 000003B8: 15:49:27 [TUniServerModule]:Start Path = D:\New folder (4)\Win32\Debug\
+Project1.exe: 000003B8: 15:49:27 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Project1.exe: 000003B8: 15:49:27 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Project1.exe: 000003B8: 15:49:27 [TUniServerModule]:HTTP Server Started on Port: 8077
+Project1.exe: 00002880: 15:49:34 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: iBHPW3Hyik1095705D3 ) : Addr: $007E5883
+Project1.exe: 000003B8: 15:54:47 [Exit]:Unexpected attempt to terminate server application with Exit Code: 0

@@ -1,0 +1,21 @@
+PuniSalary2023.exe: 00003F64: 14:38:21 [127.0.0.1]:Failed Sequence Recovery: SeqId: 350, Event: selectionchange
+PuniSalary2023.exe: 00003F64: 14:38:46 [127.0.0.1]:Sequence sent from cache:  SeqId: 350
+PuniSalary2023.exe: 00003F64: 14:38:46 [127.0.0.1]:Processed: Id: 350, Evt: selectionchange, [w6BGpzf1kA10AF781E6]
+PuniSalary2023.exe: 000021D8: 14:38:46 [127.0.0.1]:Failed Sequence Recovery: SeqId: 352, Event: selectionchange
+PuniSalary2023.exe: 00004298: 14:38:46 [127.0.0.1]:Failed Sequence Recovery: SeqId: 353, Event: selectionchange
+PuniSalary2023.exe: 000021D8: 14:38:46 [127.0.0.1]:Sequence sent from cache:  SeqId: 352
+PuniSalary2023.exe: 000021D8: 14:38:46 [127.0.0.1]:Processed: Id: 352, Evt: selectionchange, [w6BGpzf1kA10AF781E6]
+PuniSalary2023.exe: 00003F64: 14:38:46 [127.0.0.1]:Failed Sequence Recovery: SeqId: 351, Event: selectionchange
+PuniSalary2023.exe: 00004298: 14:38:46 [127.0.0.1]:Sequence sent from cache:  SeqId: 353
+PuniSalary2023.exe: 00004298: 14:38:46 [127.0.0.1]:Processed: Id: 353, Evt: selectionchange, [w6BGpzf1kA10AF781E6]
+PuniSalary2023.exe: 00003F64: 14:38:46 [127.0.0.1]:Sequence sent from cache:  SeqId: 351
+PuniSalary2023.exe: 00003F64: 14:38:46 [127.0.0.1]:Processed: Id: 351, Evt: selectionchange, [w6BGpzf1kA10AF781E6]
+PuniSalary2023.exe: 00003F64: 14:38:46 [127.0.0.1]:Failed Sequence Recovery: SeqId: 356, Event: selectionchange
+PuniSalary2023.exe: 00003F64: 14:38:46 [127.0.0.1]:Processing: Id: 356, Evt: selectionchange
+PuniSalary2023.exe: 000021D8: 14:38:46 [127.0.0.1]:Failed Sequence Recovery: SeqId: 358, Event: selectionchange
+PuniSalary2023.exe: 00004298: 14:38:46 [127.0.0.1]:Failed Sequence Recovery: SeqId: 357, Event: selectionchange
+PuniSalary2023.exe: 00003F64: 14:38:46 [127.0.0.1]:Processed: Id: 356, Evt: selectionchange, [w6BGpzf1kA10AF781E6]
+PuniSalary2023.exe: 00004298: 14:38:46 [127.0.0.1]:Processing: Id: 357, Evt: selectionchange
+PuniSalary2023.exe: 00004298: 14:38:46 [127.0.0.1]:Processed: Id: 357, Evt: selectionchange, [w6BGpzf1kA10AF781E6]
+PuniSalary2023.exe: 000021D8: 14:38:46 [127.0.0.1]:Processing: Id: 358, Evt: selectionchange
+PuniSalary2023.exe: 000021D8: 14:38:46 [127.0.0.1]:Processed: Id: 358, Evt: selectionchange, [w6BGpzf1kA10AF781E6]
