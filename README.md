@@ -1,6 +1,13 @@
 # UniSaraly  ระบบเงินเดือน องค์การบริหารส่วนจังหวัดอุดรธานี
        
 ตัวอย่างการทำงานของโปรแกรม
+
+![image](https://github.com/piyasakul/UniSaraly/assets/8348999/b998143d-e600-47c0-a31d-7a03ea4666a0)
+
+
+
+
+
 ![image](https://github.com/piyasakul/UniSaraly/assets/8348999/bca9d9f2-247b-4832-885e-1f70d868acb1)
 
 ![image](https://github.com/piyasakul/UniSaraly/assets/8348999/131726b0-4357-41be-96f5-cf2c88e4b65c)
